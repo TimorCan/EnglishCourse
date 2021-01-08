@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DirView" customModule="Six" customModuleProvider="target">
+            <connections>
+                <outlet property="btn1" destination="ZjO-gJ-3UH" id="HPz-Yx-toT"/>
+                <outlet property="btn2" destination="unq-3a-IXX" id="3rn-Jb-LJo"/>
+                <outlet property="btn3" destination="xjO-Ja-oj9" id="WaC-nV-lCp"/>
+                <outlet property="btn4" destination="qAQ-3u-DRn" id="Yui-gL-XXK"/>
+                <outlet property="custmerView" destination="c22-O7-iKe" id="en7-mF-TV6"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="863" height="666"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OQa-G0-EB2">
+                    <rect key="frame" x="0.0" y="0.0" width="863" height="666"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="directory" id="8eg-SO-8jB"/>
+                    <color key="contentTintColor" red="0.3536861241" green="0.77832931279999995" blue="0.49179583789999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </imageView>
+                <box boxType="custom" borderWidth="0.0" cornerRadius="4" title="Box" translatesAutoresizingMaskIntoConstraints="NO" id="ZUK-fK-jpU">
+                    <rect key="frame" x="327" y="183" width="510" height="300"/>
+                    <view key="contentView" id="PtY-4c-6ws">
+                        <rect key="frame" x="0.0" y="0.0" width="510" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button tag="10000" translatesAutoresizingMaskIntoConstraints="NO" id="ZjO-gJ-3UH">
+                                <rect key="frame" x="12" y="259" width="498" height="35"/>
+                                <buttonCell key="cell" type="squareTextured" title="Hello Label" bezelStyle="texturedSquare" image="cirle_01" imagePosition="leading" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyUpOrDown" inset="2" id="Zi1-TW-L53">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="systemBold" size="30"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="buttonCLick:" target="-2" id="hrA-jp-KHs"/>
+                                </connections>
+                            </button>
+                            <button tag="20000" translatesAutoresizingMaskIntoConstraints="NO" id="unq-3a-IXX">
+                                <rect key="frame" x="12" y="199" width="498" height="35"/>
+                                <buttonCell key="cell" type="square" title="Hello Label" bezelStyle="shadowlessSquare" image="cirle_02" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyUpOrDown" inset="2" id="8e1-xs-mx6">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="systemBold" size="30"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="buttonCLick:" target="-2" id="Tv3-z8-rEA"/>
+                                </connections>
+                            </button>
+                            <button tag="30000" translatesAutoresizingMaskIntoConstraints="NO" id="xjO-Ja-oj9">
+                                <rect key="frame" x="12" y="139" width="498" height="35"/>
+                                <buttonCell key="cell" type="square" title="Hello Label" bezelStyle="shadowlessSquare" image="cirle_03" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyUpOrDown" inset="2" id="GOF-dz-4IN">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="systemBold" size="30"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="buttonCLick:" target="-2" id="IYe-IC-TbT"/>
+                                </connections>
+                            </button>
+                            <button tag="40000" translatesAutoresizingMaskIntoConstraints="NO" id="qAQ-3u-DRn">
+                                <rect key="frame" x="12" y="79" width="498" height="35"/>
+                                <buttonCell key="cell" type="square" title="Hello Label" bezelStyle="shadowlessSquare" image="cirle_014" imagePosition="left" alignment="left" scrollable="YES" lineBreakMode="clipping" imageScaling="proportionallyUpOrDown" inset="2" id="1wg-aO-e2n">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="systemBold" size="30"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="buttonCLick:" target="-2" id="wVd-VJ-W41"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="qAQ-3u-DRn" firstAttribute="top" secondItem="xjO-Ja-oj9" secondAttribute="bottom" constant="25" id="0S7-DV-xiO"/>
+                            <constraint firstItem="qAQ-3u-DRn" firstAttribute="trailing" secondItem="ZjO-gJ-3UH" secondAttribute="trailing" id="8Mz-lr-9cP"/>
+                            <constraint firstItem="unq-3a-IXX" firstAttribute="top" secondItem="ZjO-gJ-3UH" secondAttribute="bottom" constant="25" id="Dni-5Q-MZq"/>
+                            <constraint firstItem="xjO-Ja-oj9" firstAttribute="top" secondItem="unq-3a-IXX" secondAttribute="bottom" constant="25" id="LdE-ku-xET"/>
+                            <constraint firstItem="xjO-Ja-oj9" firstAttribute="trailing" secondItem="ZjO-gJ-3UH" secondAttribute="trailing" id="bPh-f8-cVn"/>
+                            <constraint firstItem="xjO-Ja-oj9" firstAttribute="leading" secondItem="ZjO-gJ-3UH" secondAttribute="leading" id="eYS-NJ-hHF"/>
+                            <constraint firstAttribute="trailing" secondItem="ZjO-gJ-3UH" secondAttribute="trailing" id="h00-fR-3Kh"/>
+                            <constraint firstItem="qAQ-3u-DRn" firstAttribute="leading" secondItem="ZjO-gJ-3UH" secondAttribute="leading" id="kTL-5E-sjv"/>
+                            <constraint firstItem="unq-3a-IXX" firstAttribute="trailing" secondItem="ZjO-gJ-3UH" secondAttribute="trailing" id="kwC-el-vqi"/>
+                            <constraint firstItem="ZjO-gJ-3UH" firstAttribute="leading" secondItem="PtY-4c-6ws" secondAttribute="leading" constant="12" id="l8p-AK-9ga"/>
+                            <constraint firstItem="unq-3a-IXX" firstAttribute="leading" secondItem="ZjO-gJ-3UH" secondAttribute="leading" id="qHK-Ro-j6z"/>
+                            <constraint firstItem="ZjO-gJ-3UH" firstAttribute="top" secondItem="PtY-4c-6ws" secondAttribute="top" constant="6" id="w8f-af-tQh"/>
+                        </constraints>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="510" id="YKf-dx-Kts"/>
+                        <constraint firstAttribute="height" constant="300" id="goL-t4-MAM"/>
+                    </constraints>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstItem="OQa-G0-EB2" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="5FW-Po-nZl"/>
+                <constraint firstAttribute="trailing" secondItem="OQa-G0-EB2" secondAttribute="trailing" id="8Pv-mU-vr4"/>
+                <constraint firstItem="OQa-G0-EB2" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="SnY-SB-y5v"/>
+                <constraint firstItem="OQa-G0-EB2" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="X2h-Hc-KQT"/>
+                <constraint firstAttribute="bottom" secondItem="OQa-G0-EB2" secondAttribute="bottom" id="Yb9-Wq-kRP"/>
+                <constraint firstItem="ZUK-fK-jpU" firstAttribute="centerX" secondItem="c22-O7-iKe" secondAttribute="centerX" constant="150" id="a5n-vn-7Pc"/>
+                <constraint firstAttribute="bottom" secondItem="OQa-G0-EB2" secondAttribute="bottom" id="aay-JL-dvt"/>
+                <constraint firstAttribute="trailing" secondItem="OQa-G0-EB2" secondAttribute="trailing" id="hJx-gf-b02"/>
+                <constraint firstItem="ZUK-fK-jpU" firstAttribute="centerY" secondItem="c22-O7-iKe" secondAttribute="centerY" id="jJO-Qj-fYM"/>
+                <constraint firstItem="OQa-G0-EB2" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="vBH-XH-yT1"/>
+            </constraints>
+            <point key="canvasLocation" x="248" y="165"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="cirle_01" width="28.5" height="28.5"/>
+        <image name="cirle_014" width="28.5" height="28.5"/>
+        <image name="cirle_02" width="28.5" height="28.5"/>
+        <image name="cirle_03" width="28.5" height="28.5"/>
+        <image name="directory" width="480" height="270"/>
+    </resources>
+</document>

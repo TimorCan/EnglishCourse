@@ -1,0 +1,21 @@
+
+
+import Foundation
+import Cocoa
+
+public protocol FatSidebarTheme {
+    var itemStyle: FatSidebarItemStyle { get }
+    var sidebarBackground: NSColor { get }
+}
+
+public protocol FatSidebarItemStyle {
+    /// Replacement font for item labels. Leave as `nil` to default to system font.
+    var font: NSFont? { get }
+    var labelColor: StatefulColor { get }
+    var background: StatefulBackgroundColor { get }
+    var borders: Borders { get }
+}
+
+extension FatSidebarItemStyle {
+    public var font: NSFont? { return nil }
+}

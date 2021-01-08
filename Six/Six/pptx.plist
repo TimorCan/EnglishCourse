@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>英语口语训练第四课</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>情景模拟1--Bedtime</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Jimmy,Mary
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Jimmy：Mary，是时候睡觉了。
+Mary：但是我不困，我能再看会电视吗？
+
+Jimmy：现在都已经过了11点了，你明天还要上班呢。
+Mary：是的，我知道。
+
+Jimmy：如果你今晚睡得不好的话，明天一整天你都会犯困的。
+Mary：好吧，我估计是的。或许我现在就应该去睡觉。
+
+Jimmy：好想法，晚安做个好梦。
+Marry：晚安，明早见。</string>
+				<key>english</key>
+				<string>Jimmy：Mary,It&apos;s time for bed.
+Mary：But I&apos;m not sleepy.Can I watch more TV？
+
+Jimmy：It&apos;s already past 11.You have to go to work tomorrow.
+Mary：Yeah,I know.
+
+Jimmy：You must be sleepy all day tomorrow if you don&apos;t sleep well tonight.
+Mary：Well,I guess so.Maybe I should go to sleep now.
+
+Jimmy：An excellent idea.Have a nice dream.
+Marry：Good night.See you in the morning.
+</string>
+				<key>image</key>
+				<string>ppt_04_01</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>2.情景模拟--At the bar</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：顾客Tom&amp;Lisa
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Tom：这真是一个很棒的酒吧。可真热闹啊！
+Lisa：是的。来这儿真是一个好想法。
+
+Tom：你想坐在哪里呢？
+Lisa：靠窗。
+
+Tom：Oh，英雄所见略同。我也是这么想的。
+Lisa：让我们先弄点喝的吧，哇唔，这里有多种多样的饮品。你想喝那种？
+
+Tom：呃，请给我一点时间。
+Lisa：好的，等你确定了我就叫服务员。
+</string>
+				<key>english</key>
+				<string>Tom：This is a great bar.It&apos;s really hopping.
+Lisa：Yes,this was a great idea to come here.
+
+Tom：Where would you like to sit？
+Lisa：By the window.
+
+Tom：Oh,Great minds think alike.That&apos;s what I think too. 
+Lisa：Let&apos;s get something to drink first.Wow,there are various drinks.Which would you want？
+
+Tom：Uh，please give me a few minutes.
+Lisa：Certainly，I&apos;ll call the waiter when you&apos;re sure.
+</string>
+				<key>image</key>
+				<string>ppt_04_02</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>3.情景模拟3--Watching TV</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Jessica、John
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Jessica：感觉怎么样，John？
+John：好多了，谢谢。我一整天都在休息。只有电视机和我作伴。
+
+Jessica：你今天看什么了？
+John：我早上先是看了游戏节目，我真的很喜欢看。
+
+Jessica：然后呢？
+John：在下午两点时，我换到了6台看新闻。
+
+Jessica：有什么重要的事情发生吗？
+John：一个银行今天下午被抢劫了。</string>
+				<key>english</key>
+				<string>Jessica：How are you felling,John？
+John：Much better,thanks.I&apos;ve been resting all day,only with the television as my companion.
+
+Jessica：What did you watch today？
+John：I started with some game shows this morning.I really enjoy them.
+
+Jessica：And next？
+John：At 2 o&apos;clock.I switched to Channel 6 and watchd news.
+
+Jessica：Anything important happened？
+John：A bank was robbed this afternoon.</string>
+				<key>image</key>
+				<string>ppt_04_03</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>4.情景模拟4--Saving Money</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Gary、Kevin
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Mary：我们应该开始存钱以备不时之需。
+Kevin：是的，我知道，但是我们也是要生活的呀。我不想只为了存钱而工作。
+
+Mary：好吧，我们可以存储20%的收入并放到银行里。
+Kevin：20%听起来太高了，10%怎么样？
+
+Mary：如果我们现在开始存钱在银行，我们将会有足够的前来舒服得退休。
+Kevin：长远来看，听起来不错。
+
+Mary：那我们下周就开始行动吧。
+Kevin：好的。</string>
+				<key>english</key>
+				<string>Mary：We need to start saving money for a rainy day.
+Kevin：Yeah,I know,but we still need to live too.I don&apos;t want to work just to save.
+
+Mary：Well，we can save 20% of all our earnings and put it in the bank.
+Kevin：20% sounds too high.How about 10%?
+
+Mary：If we start saving and keeping it in the bank now,we&apos;ll have enough money to retire comfortably.
+Kevin：In the long run,sounds great.
+
+Mary：Let&apos;s take action next week.
+Kevin：All right.</string>
+				<key>image</key>
+				<string>ppt_04_04</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>英语口语训练第五课</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>情景模拟1--餐厅</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Jimmy,Jojo
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Jimmy：请问您订位了吗，先生？
+Jojo：恐怕没有。
+
+Jimmy：好的，请跟我来。
+Jojo：能让我看一眼菜单吗？
+
+Jimmy：给您，您喜欢哪种菜，中式的还是美式的？
+Jojo：这是我第一次来桂林，你有什么推荐呢？
+
+Jimmy：我推荐叉烧肉和桂林米粉。
+Jojo：好的，就这两个了。
+
+Jimmy：还要别的什么吗？
+Jojo：不用了，这就够了，谢谢。
+</string>
+				<key>english</key>
+				<string>Jimmy：Do you have a resevation,Sir？
+Jojo：I&apos;m afraid not.
+
+Jimmy:Ok,this way please.
+Jojo：Can I see the menu,please？
+
+Jimmy：Here you are.What kind of food do you like,Chinese or American？
+Jojo：This is my first time to Guilin,what would you recommend？
+
+Jimmy：I recommend BBQ pork and Guilin rice noodles.
+Jojo：Ok,I want these two.
+
+Jimmy：Anything more？
+Jojo：No,that&apos;s enough,thanks.
+</string>
+				<key>image</key>
+				<string>ppt_05_01</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>2.情景模拟--新人入职</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Tom&amp;Lisa
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Tom：早上好，我是办公室新来的员工！
+Lisa：早上好，欢迎来到我们办公室。
+
+Tom：很高兴见到你，今天是我第一天上班。还请多多指教
+Lisa：如果你需要帮忙我会尽全力的。
+
+Tom：谢谢，我想知道哪张办公桌是我的。
+Lisa：欧，对不起我忘记告诉你了，是靠窗的那张。
+
+Tom：没关系，我喜欢这个位置。
+Lisa：这是办公室的规章制度，你可以先从这开始。</string>
+				<key>english</key>
+				<string>Tom：Good morning,I am a rookie in our office！
+Lisa：Good morning,welcome to our office
+
+Tom：Nice to meet you,this is my first day at work and I will appreciate your guidance.
+Lisa：I will try my best to assist you if you need.
+
+Tom：Thank you,I am wondering which desk is mine.
+Lisa：Sorry,I forgot to show you.That one near the window.
+
+Tom：That&apos;s OK.I like the position.
+Lisa：There are the rules in the office，you can start from these.</string>
+				<key>image</key>
+				<string>ppt_05_02</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>3.情景模拟3--天气</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Jessica、John
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Jessica：这天真冷啊！
+John：确实，你应该多穿点衣服保暖。
+
+Jessica：我同意。现在正下着倾盆大雨，最好呆在家里。
+John：多久才会放晴啊？
+
+Jessica：估计要一个月甚至更久。。。
+John：可是我要去火车站，这场雨给我带来了不便。
+
+Jessica：我可以开车送你。
+John：太感谢你了。</string>
+				<key>english</key>
+				<string>Jessica：It&apos;s so cold!
+John：Indeed，you should wear more clothes to keep warm.
+
+Jessica：I agree with you.It&apos;s raining cats and dogs，we&apos;d better stay at home.
+John：How long will it take to sunny？
+
+Jessica：Maybe a month or more.
+John：But I have to go to the railway station,the rain takes a lot of inconvenience to me.
+
+Jessica：I can drive you.
+John：Thanks a lot!</string>
+				<key>image</key>
+				<string>ppt_05_03</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>4.情景模拟4--工作进度</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Gary、Kevin
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Gary：嗨，Kevin，请坐，工作进展得怎么样了？
+Kevin：进展得不错，但是时间上有点拖延。
+
+Gary：能按时完成吗？
+Kevin：我时间紧迫，可能需要其他人帮忙。
+
+Gary：好，我派Jack去协助你，周五一定要发给客户，不得拖延。
+Kevin：好，我们保证做好。
+
+Gary：一言既出，驷马难追。
+Kevin：等着瞧吧。</string>
+				<key>english</key>
+				<string>Gary：Hi，Kevin，take a seat please，How are things at work？
+Kevin：It&apos;s coming along well, but it is a little delayed.
+
+Gary：Can you finish it on time?？
+Kevin：I&apos;m pressed for time and I am afraid I need someone to help me.
+
+Gary：OK, I will send Jack to help you. We need to  sent them to our clients on Friday without delay.
+Kevin：OK, we promise to do it well.
+
+Gary：The word once spoken can never be recalled.
+Kevin：Wait and see.</string>
+				<key>image</key>
+				<string>ppt_05_04</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>英语口语训练第六课</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>情景模拟1--海关</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：Jimmy,Rose请根据以下中文提示进行英语对话</string>
+				<key>chinese</key>
+				<string>Jimmy：你到中国的目的是什么？Rose：旅游，我想去三亚看海。Jimmy：你的签证是两周，你打算呆更久吗？Rose：不会，我十二天后就回去了。Jimmy：请问你的包里都有什么？Rose：只是一个相机和一些衣服。Jimmy：你没有携带任何食物吧？Rose：没有。Jimmy：好的，这是例行检查，你能把你的包打开看看吗？Rose：好的。</string>
+				<key>english</key>
+				<string>Jimmy：What is the purpose of your visit to China？Rose：Travel，I want to go to Sanya and see the sea.Jimmy：The visa is good for two weeks，do you intend to stay longer than that？Rose：No,I will fly back 12 days from now.Jimmy：What do you have in the bag？Rose：Just a camera and some clothes.Jimmy：You are not carrying any food with you ,right？Rose：No.Jimmy：Ok,this is a routine check,would you mind opening the bag？Rose：Alright.</string>
+				<key>image</key>
+				<string>ppt_06_01</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>2.情景模拟--旅游</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：xiaoming&amp;Lisa请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>xiaoming：欢迎来到南京，南京是江苏的省会！Lisa：能不能告诉我有哪些值得参观的地方？xiaoming：有很多著名的景点比如玄武湖，紫金山，鸡鸣寺。Lisa：哪个最吸引你呢？xiaoming：紫金山，欣赏风景的同时你也能锻炼身体。Lisa：听起来不错，我非常喜欢旅游。xiaoming：我很欣赏你。Lisa：是的，那你有空带我去吧。</string>
+				<key>english</key>
+				<string>xiaoming：Welcome to Nanjing，Nanjing is the capital of Jiangsu Province！Lisa：Can you tell me some places worth visiting?xiaoming：There are many famous places, such as Xuanwu Lake, Zijin Mountain, Jiming temple.Lisa：Which attracts you most？xiaoming：Zijin Mountain，While enjoying the scenery, you can also exercise.Lisa：That sounds good. I like traveling very much.xiaoming：I appreciate you very much. Lisa：Yeah,please take me to the mountain when you have time.</string>
+				<key>image</key>
+				<string>ppt_06_02</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>3.情景模拟3--工作交接</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：Jessica、Ammy请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Jessica：Ammy，从明天开始你将接替我的工作。我先给你讲一下办公室制度。Ammy：谢谢你，了解这些对我来说很重要。Jessica：工作时间是上午9点到下午4点，务必不要迟到或者矿工。Ammy：好的，我会忠于职守的。Jessica：要做一名好秘书，你需要对办公室的日常非常熟悉。Ammy：好的，我会尽力的。Jessica:师父领进门修行在个人。祝你好运！</string>
+				<key>english</key>
+				<string>Jessica：Ammy，you will take over my work from tommorrow.Let me tell you about the office rules first.Ammy：Thank you，It&apos;s very important for me to know about them. Jessica：The working hours are from 9am to 4pm. Besure not to be late or absent.Ammy：OK. I&apos;ll do my duties.Jessica：To be a good secretary, you will have to be quite familiar with office routine.Ammy：Yes, I&apos; ll try my best.Jessica:You may lead a horse to the river,But you cannot make him drink.Good luck!</string>
+				<key>image</key>
+				<string>ppt_06_03</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>4.情景模拟4--兴趣爱好</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Gary、Kevin
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Gary：Kevin，你平时有空的时候都干啥？Kevin：我一般都看书。Gary：你对哪一类书比较感兴趣呢？Kevin：我喜欢侦探类的书，你呢。Gary：我不喜欢看书，我喜欢看电影。Kevin：太巧了！钢铁侠周五要上映了，你愿意和我一起去看吗？Gary：我很乐意！Kevin：那我们周五晚上再见！</string>
+				<key>english</key>
+				<string>Gary：Kevin，what do you do in your spare time？Kevin：I usually read books.Gary：What kind of book are you interested in？Kevin：I like books about detectives,what about you?Gary：I don&apos;t like reading books,I like watching movie.Kevin：What a coincidence！The Iron man will be released on Friday，would you like to go with me？Gary：I&apos;m glad to！Kevin：I&apos;ll see you on Friday night！</string>
+				<key>image</key>
+				<string>ppt_06_04</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

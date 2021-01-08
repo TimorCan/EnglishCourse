@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ContentView" customModule="Six" customModuleProvider="target">
+            <connections>
+                <outlet property="changeButton" destination="6FT-tP-4dn" id="CjU-Jw-GKg"/>
+                <outlet property="contentTextView" destination="i1c-O8-JY2" id="DRS-PW-jzs"/>
+                <outlet property="custmerView" destination="c22-O7-iKe" id="Zwq-Rt-KbE"/>
+                <outlet property="hideButton" destination="Jm7-fW-JdC" id="RUZ-nF-O6p"/>
+                <outlet property="homeButton" destination="uqb-5C-Zxd" id="FeI-9r-Goi"/>
+                <outlet property="imageView" destination="WzM-dk-kUO" id="yMH-en-xCm"/>
+                <outlet property="lastButton" destination="q1W-Ah-pEv" id="isJ-SF-OqH"/>
+                <outlet property="nextButton" destination="g6G-Al-EdY" id="5eB-JX-fgA"/>
+                <outlet property="tips" destination="K22-fU-upo" id="ZuJ-Gt-PdV"/>
+                <outlet property="titleLabel" destination="aCc-TQ-DtS" id="SSV-it-koH"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="863" height="666"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nht-6k-vkb">
+                    <rect key="frame" x="0.0" y="0.0" width="863" height="666"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="666" id="OXn-DR-Ymf"/>
+                        <constraint firstAttribute="width" constant="863" id="UaH-bI-zGq"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="content" id="tEg-1f-fHO"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aCc-TQ-DtS">
+                    <rect key="frame" x="37" y="519" width="818" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="jF8-Ta-Bia"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="1.情景模拟--餐厅" id="1e2-p8-X7z">
+                        <font key="font" metaFont="systemBold" size="36"/>
+                        <color key="textColor" red="0.31688177585601807" green="0.35712271928787231" blue="0.38439133763313293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="K22-fU-upo">
+                    <rect key="frame" x="37" y="469" width="818" height="42"/>
+                    <textFieldCell key="cell" selectable="YES" id="djg-l5-DPe">
+                        <font key="font" metaFont="system" size="18"/>
+                        <string key="title">背景提示：
+事件参与人物：Tom&amp;Lisa</string>
+                        <color key="textColor" red="0.32480469346046448" green="0.36470726132392883" blue="0.38859236240386963" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGY-xK-vg9">
+                    <rect key="frame" x="39" y="118" width="494" height="343"/>
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="6M1-Iw-NKF">
+                        <rect key="frame" x="0.0" y="0.0" width="494" height="343"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="i1c-O8-JY2">
+                                <rect key="frame" x="0.0" y="0.0" width="494" height="343"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <size key="minSize" width="494" height="343"/>
+                                <size key="maxSize" width="494" height="10000000"/>
+                                <attributedString key="textStorage">
+                                    <fragment content="Tom">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Good morning,I am a rookie in our office">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="！">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+DQ
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Lisa">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Good morning,welcome to our office
+
+Tom</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Nice to meet you,this is my first day at work and I will appreciate your guidance.
+Lisa</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">I will try my best to assist you if you need.
+
+Tom</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Thank you,I am wondering which desk is mine.
+Lisa</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Sorry,I forgot to show you.That one near the window.
+
+Tom</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">That's OK.I like the position.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Lisa">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="：">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="There are the rules in the office">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="，">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="PingFangSC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">you can start from these.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            </textView>
+                        </subviews>
+                    </clipView>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="494" id="kMl-wA-eC3"/>
+                    </constraints>
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="stc-l7-3hH">
+                        <rect key="frame" x="-100" y="-100" width="240" height="16"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="yAr-fD-Y6Z">
+                        <rect key="frame" x="478" y="0.0" width="16" height="343"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WzM-dk-kUO">
+                    <rect key="frame" x="572" y="187" width="260" height="289"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="5fO-zM-K6p"/>
+                        <constraint firstAttribute="height" constant="289" id="Uts-vv-Bzv"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="ppt_05_03" id="h8M-UV-tlf"/>
+                </imageView>
+                <button hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6FT-tP-4dn">
+                    <rect key="frame" x="738" y="517" width="94" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="XOY-hD-Dbt"/>
+                        <constraint firstAttribute="width" constant="94" id="vCV-dn-xQA"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="中01" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="6NO-id-4dP">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="changeContent:" target="-2" id="9Dz-re-S5v"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uqb-5C-Zxd">
+                    <rect key="frame" x="44" y="594" width="52" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ESD-Q8-M4Q"/>
+                        <constraint firstAttribute="width" constant="50" id="pPx-k3-EUt"/>
+                    </constraints>
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="NSHomeTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Vg0-3x-4JU">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonClickHome:" target="-2" id="6ov-da-aMv"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="q1W-Ah-pEv">
+                    <rect key="frame" x="134" y="594" width="52" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="GKV-s4-HJs"/>
+                        <constraint firstAttribute="width" constant="50" id="vG8-YO-9MI"/>
+                    </constraints>
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="NSGoBackTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5hD-xT-hiL">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonClickLast:" target="-2" id="uaQ-HC-BUn"/>
+                    </connections>
+                </button>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="g6G-Al-EdY">
+                    <rect key="frame" x="224" y="594" width="52" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="4i6-Up-uC7"/>
+                        <constraint firstAttribute="height" constant="50" id="6yT-s8-lAt"/>
+                    </constraints>
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="NSGoForwardTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ult-sW-rq1">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonClickNext:" target="-2" id="sre-A4-FKQ"/>
+                    </connections>
+                </button>
+                <button hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jm7-fW-JdC">
+                    <rect key="frame" x="613" y="517" width="94" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="0vf-BK-Igo"/>
+                        <constraint firstAttribute="width" constant="94" id="Mge-2w-FAI"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="冥想" imagePosition="overlaps" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="RXO-vm-HPL">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="buttonClickHide:" target="-2" id="7Ok-Yd-Veg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="g6G-Al-EdY" firstAttribute="leading" secondItem="q1W-Ah-pEv" secondAttribute="trailing" constant="40" id="1ZE-TN-DZd"/>
+                <constraint firstItem="uqb-5C-Zxd" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="45" id="2UR-Qd-2aO"/>
+                <constraint firstItem="6FT-tP-4dn" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="101" id="5pu-B0-lg1"/>
+                <constraint firstItem="q1W-Ah-pEv" firstAttribute="leading" secondItem="uqb-5C-Zxd" secondAttribute="trailing" constant="40" id="9Sw-51-ZYy"/>
+                <constraint firstAttribute="trailing" secondItem="nht-6k-vkb" secondAttribute="trailing" id="DyF-bK-6t9"/>
+                <constraint firstItem="K22-fU-upo" firstAttribute="top" secondItem="aCc-TQ-DtS" secondAttribute="bottom" constant="8" id="E7w-yB-9aE"/>
+                <constraint firstAttribute="trailing" secondItem="WzM-dk-kUO" secondAttribute="trailing" constant="31" id="HZU-Qe-8mR"/>
+                <constraint firstItem="K22-fU-upo" firstAttribute="trailing" secondItem="aCc-TQ-DtS" secondAttribute="trailing" id="Hre-VP-1yh"/>
+                <constraint firstItem="nht-6k-vkb" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" id="Izy-kv-qKU"/>
+                <constraint firstItem="q1W-Ah-pEv" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="Maw-1A-16I"/>
+                <constraint firstItem="WzM-dk-kUO" firstAttribute="top" secondItem="K22-fU-upo" secondAttribute="top" constant="35" id="NIC-Oi-C4b"/>
+                <constraint firstItem="6FT-tP-4dn" firstAttribute="leading" secondItem="Jm7-fW-JdC" secondAttribute="trailing" constant="31" id="Tnr-CT-tuW"/>
+                <constraint firstItem="6FT-tP-4dn" firstAttribute="trailing" secondItem="WzM-dk-kUO" secondAttribute="trailing" id="Urt-jd-ZaE"/>
+                <constraint firstItem="aCc-TQ-DtS" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="39" id="Vno-2b-3bu"/>
+                <constraint firstAttribute="bottom" secondItem="nht-6k-vkb" secondAttribute="bottom" id="Ya6-eB-c3V"/>
+                <constraint firstItem="pGY-xK-vg9" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="39" id="ZmX-19-3Nv"/>
+                <constraint firstItem="pGY-xK-vg9" firstAttribute="top" secondItem="K22-fU-upo" secondAttribute="bottom" constant="8" id="Zx6-Ur-gdN"/>
+                <constraint firstAttribute="bottom" secondItem="pGY-xK-vg9" secondAttribute="bottom" constant="118" id="dvm-Rs-gmQ"/>
+                <constraint firstAttribute="trailing" secondItem="aCc-TQ-DtS" secondAttribute="trailing" constant="10" id="fpW-gM-QVV"/>
+                <constraint firstItem="uqb-5C-Zxd" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="i89-UI-ThA"/>
+                <constraint firstItem="g6G-Al-EdY" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="r8F-PA-9GS"/>
+                <constraint firstItem="nht-6k-vkb" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="udT-lV-6eZ"/>
+                <constraint firstItem="K22-fU-upo" firstAttribute="leading" secondItem="aCc-TQ-DtS" secondAttribute="leading" id="vRO-l6-8jz"/>
+                <constraint firstItem="6FT-tP-4dn" firstAttribute="top" secondItem="Jm7-fW-JdC" secondAttribute="top" id="vaL-LC-BD9"/>
+                <constraint firstItem="aCc-TQ-DtS" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="104" id="yAw-gX-T8F"/>
+                <constraint firstAttribute="trailing" secondItem="nht-6k-vkb" secondAttribute="trailing" id="ycn-sF-UGT"/>
+            </constraints>
+            <point key="canvasLocation" x="159.5" y="176"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSGoBackTemplate" width="9" height="12"/>
+        <image name="NSGoForwardTemplate" width="9" height="12"/>
+        <image name="NSHomeTemplate" width="14" height="14"/>
+        <image name="content" width="480" height="270"/>
+        <image name="ppt_05_03" width="262" height="187"/>
+        <image name="中01" width="94" height="90"/>
+        <image name="冥想" width="45" height="45"/>
+    </resources>
+</document>

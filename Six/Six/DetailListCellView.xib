@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="DetailListCellView" id="vfc-mb-VDr" customClass="DetailListCellView" customModule="Six" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eBi-uR-ou5">
+                    <rect key="frame" x="0.0" y="61" width="290" height="137"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="137" id="iMd-61-vGs"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="ftk-Km-RLf"/>
+                </imageView>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Fzr-s6-lmb">
+                    <rect key="frame" x="-2" y="-2" width="294" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="1gh-R9-x41"/>
+                    </constraints>
+                    <textFieldCell key="cell" selectable="YES" alignment="center" title="在家里" id="Vjv-VV-6Sa">
+                        <font key="font" metaFont="systemBold" size="17"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="eBi-uR-ou5" secondAttribute="trailing" id="0f7-ZX-Buj"/>
+                <constraint firstAttribute="trailing" secondItem="Fzr-s6-lmb" secondAttribute="trailing" id="3OZ-ZO-ZQw"/>
+                <constraint firstItem="Fzr-s6-lmb" firstAttribute="top" secondItem="eBi-uR-ou5" secondAttribute="bottom" constant="10" id="Mpp-if-7Y6"/>
+                <constraint firstItem="eBi-uR-ou5" firstAttribute="top" secondItem="vfc-mb-VDr" secondAttribute="top" id="iKt-b1-QLT"/>
+                <constraint firstItem="eBi-uR-ou5" firstAttribute="leading" secondItem="vfc-mb-VDr" secondAttribute="leading" id="kwg-el-SVU"/>
+                <constraint firstItem="Fzr-s6-lmb" firstAttribute="leading" secondItem="vfc-mb-VDr" secondAttribute="leading" id="pn4-Lm-Nj3"/>
+            </constraints>
+            <connections>
+                <outlet property="imgeView" destination="eBi-uR-ou5" id="x3K-Hy-mhW"/>
+                <outlet property="titleLabel" destination="Fzr-s6-lmb" id="dNS-dS-Uve"/>
+            </connections>
+            <point key="canvasLocation" x="202" y="205"/>
+        </customView>
+    </objects>
+</document>

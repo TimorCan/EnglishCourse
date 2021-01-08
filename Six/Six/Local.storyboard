@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="eb1-qQ-GwD">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Local View Controller-->
+        <scene sceneID="1UW-nI-Ugu">
+            <objects>
+                <viewController id="eb1-qQ-GwD" customClass="LocalViewController" customModule="Six" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="3he-UR-JYe">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="666"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <splitView dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ms3-Zh-Bn0">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="666"/>
+                                <subviews>
+                                    <customView id="gUn-Ap-PIz" customClass="FatSidebar" customModule="Six" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="666"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="20" id="GYG-3d-btN"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundColor">
+                                                <color key="value" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </customView>
+                                    <customView id="1HE-PM-DWS">
+                                        <rect key="frame" x="137" y="0.0" width="863" height="666"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <subviews>
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="tdT-7Q-Wop" customClass="ContentView" customModule="Six" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="863" height="666"/>
+                                            </customView>
+                                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="FLd-Aw-rjW" customClass="DirView" customModule="Six" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="863" height="666"/>
+                                            </customView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="FLd-Aw-rjW" firstAttribute="leading" secondItem="1HE-PM-DWS" secondAttribute="leading" id="3ir-9v-f9m"/>
+                                            <constraint firstItem="tdT-7Q-Wop" firstAttribute="leading" secondItem="1HE-PM-DWS" secondAttribute="leading" id="C0n-CB-zl5"/>
+                                            <constraint firstAttribute="trailing" secondItem="FLd-Aw-rjW" secondAttribute="trailing" id="GPn-gi-JSG"/>
+                                            <constraint firstAttribute="trailing" secondItem="tdT-7Q-Wop" secondAttribute="trailing" id="IBS-0t-RHL"/>
+                                            <constraint firstAttribute="bottom" secondItem="tdT-7Q-Wop" secondAttribute="bottom" id="SJt-aL-CiV"/>
+                                            <constraint firstItem="tdT-7Q-Wop" firstAttribute="top" secondItem="1HE-PM-DWS" secondAttribute="top" id="ewS-w8-1m5"/>
+                                            <constraint firstAttribute="bottom" secondItem="FLd-Aw-rjW" secondAttribute="bottom" id="s4U-Ep-irv"/>
+                                            <constraint firstItem="FLd-Aw-rjW" firstAttribute="top" secondItem="1HE-PM-DWS" secondAttribute="top" id="wme-w0-xch"/>
+                                        </constraints>
+                                    </customView>
+                                </subviews>
+                                <holdingPriorities>
+                                    <real value="250"/>
+                                    <real value="250"/>
+                                </holdingPriorities>
+                            </splitView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ms3-Zh-Bn0" firstAttribute="leading" secondItem="3he-UR-JYe" secondAttribute="leading" id="LFI-hc-OeU"/>
+                            <constraint firstItem="ms3-Zh-Bn0" firstAttribute="top" secondItem="3he-UR-JYe" secondAttribute="top" id="txM-GM-Vgi"/>
+                            <constraint firstAttribute="bottom" secondItem="ms3-Zh-Bn0" secondAttribute="bottom" id="xCi-sg-iCg"/>
+                            <constraint firstAttribute="trailing" secondItem="ms3-Zh-Bn0" secondAttribute="trailing" id="yGt-4G-5pA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentView" destination="tdT-7Q-Wop" id="OhX-co-4rJ"/>
+                        <outlet property="dirView" destination="FLd-Aw-rjW" id="lRe-SF-k2N"/>
+                        <outlet property="fatSidebar" destination="gUn-Ap-PIz" id="L5R-xd-QZ2"/>
+                        <outlet property="rightContentView" destination="1HE-PM-DWS" id="JJ2-nu-2TL"/>
+                    </connections>
+                </viewController>
+                <customObject id="Z4x-kA-mhe" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="-277"/>
+        </scene>
+    </scenes>
+</document>

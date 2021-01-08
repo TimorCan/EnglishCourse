@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="HomeCellView" id="n0j-xB-nqu" customClass="HomeCellView" customModule="Six" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wwu-L7-eCH">
+                    <rect key="frame" x="20" y="12" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="7Zb-eP-cEU"/>
+                        <constraint firstAttribute="width" constant="75" id="XLs-lj-JV7"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="7tN-yY-MKC"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YKI-me-dir">
+                    <rect key="frame" x="118" y="68" width="236" height="19"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="900句" id="3VD-CT-c4W">
+                        <font key="font" metaFont="systemBold" size="16"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="7PZ-8S-Y6X">
+                    <rect key="frame" x="118" y="5" width="236" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="jg4-yX-2w3"/>
+                    </constraints>
+                    <textFieldCell key="cell" selectable="YES" title="涉及生活、学习、工作、情感等场景，即学即用" id="T3J-7i-c2k">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="CuB-5B-qN4">
+                    <rect key="frame" x="86" y="-2" width="200" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="nv9-r2-cnh"/>
+                    </constraints>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstItem="7PZ-8S-Y6X" firstAttribute="leading" secondItem="YKI-me-dir" secondAttribute="leading" id="0f5-wP-DiA"/>
+                <constraint firstAttribute="bottom" secondItem="CuB-5B-qN4" secondAttribute="bottom" id="6wG-fn-f1V"/>
+                <constraint firstItem="Wwu-L7-eCH" firstAttribute="centerY" secondItem="n0j-xB-nqu" secondAttribute="centerY" id="DLx-er-SOc"/>
+                <constraint firstItem="YKI-me-dir" firstAttribute="top" secondItem="Wwu-L7-eCH" secondAttribute="top" id="GmP-oq-NUt"/>
+                <constraint firstItem="CuB-5B-qN4" firstAttribute="centerX" secondItem="n0j-xB-nqu" secondAttribute="centerX" id="Ox2-GS-qY8"/>
+                <constraint firstItem="YKI-me-dir" firstAttribute="leading" secondItem="Wwu-L7-eCH" secondAttribute="trailing" constant="25" id="X7d-7P-3nu"/>
+                <constraint firstAttribute="trailing" secondItem="YKI-me-dir" secondAttribute="trailing" constant="20" id="dU3-hb-LJb"/>
+                <constraint firstItem="7PZ-8S-Y6X" firstAttribute="top" secondItem="YKI-me-dir" secondAttribute="bottom" constant="8" id="mqP-6U-SNN"/>
+                <constraint firstItem="Wwu-L7-eCH" firstAttribute="leading" secondItem="n0j-xB-nqu" secondAttribute="leading" constant="20" id="nKi-bR-Mdw"/>
+                <constraint firstItem="7PZ-8S-Y6X" firstAttribute="trailing" secondItem="YKI-me-dir" secondAttribute="trailing" id="ot0-GV-kNq"/>
+            </constraints>
+            <connections>
+                <outlet property="desLabel" destination="7PZ-8S-Y6X" id="xSE-ft-REw"/>
+                <outlet property="iconView" destination="Wwu-L7-eCH" id="Pfy-L5-onB"/>
+                <outlet property="titleLabel" destination="YKI-me-dir" id="JrZ-C3-FsK"/>
+            </connections>
+            <point key="canvasLocation" x="244" y="155.5"/>
+        </customView>
+    </objects>
+</document>
