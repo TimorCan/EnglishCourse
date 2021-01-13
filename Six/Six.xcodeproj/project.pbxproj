@@ -25,6 +25,10 @@
 		5586E3B025A552B30080C610 /* DetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3AF25A552B30080C610 /* DetailList.swift */; };
 		5586E3B225A554A00080C610 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3B125A554A00080C610 /* DetailItem.swift */; };
 		5586E3B425A585E30080C610 /* MainWindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3B325A585E30080C610 /* MainWindowVC.swift */; };
+		55C5A58C25AD725200E219AF /* DetailIConCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A58B25AD725200E219AF /* DetailIConCellView.swift */; };
+		55C5A58E25AD726B00E219AF /* DetailTextCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */; };
+		55C5A59025AD727B00E219AF /* DetailIConCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */; };
+		55C5A59425AE85FB00E219AF /* DetailTextCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A59325AE85FB00E219AF /* DetailTextCellView.xib */; };
 		55CC941925A58C4D00D4BF19 /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55CC941825A58C4D00D4BF19 /* List.plist */; };
 		55CC941C25A59CEF00D4BF19 /* LocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CC941B25A59CEF00D4BF19 /* LocalViewController.swift */; };
 		55CC941E25A59F2E00D4BF19 /* Local.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55CC941D25A59F2E00D4BF19 /* Local.storyboard */; };
@@ -76,6 +80,10 @@
 		5586E3AF25A552B30080C610 /* DetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailList.swift; sourceTree = "<group>"; };
 		5586E3B125A554A00080C610 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 		5586E3B325A585E30080C610 /* MainWindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowVC.swift; sourceTree = "<group>"; };
+		55C5A58B25AD725200E219AF /* DetailIConCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailIConCellView.swift; sourceTree = "<group>"; };
+		55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTextCellView.swift; sourceTree = "<group>"; };
+		55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailIConCellView.xib; sourceTree = "<group>"; };
+		55C5A59325AE85FB00E219AF /* DetailTextCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTextCellView.xib; sourceTree = "<group>"; };
 		55CC941825A58C4D00D4BF19 /* List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
 		55CC941B25A59CEF00D4BF19 /* LocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalViewController.swift; sourceTree = "<group>"; };
 		55CC941D25A59F2E00D4BF19 /* Local.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Local.storyboard; sourceTree = "<group>"; };
@@ -166,6 +174,10 @@
 				5586E3A125A443A30080C610 /* HomeCellView.xib */,
 				5586E3A725A457480080C610 /* DetailListCellView.swift */,
 				5586E3A925A457530080C610 /* DetailListCellView.xib */,
+				55C5A58B25AD725200E219AF /* DetailIConCellView.swift */,
+				55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */,
+				55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */,
+				55C5A59325AE85FB00E219AF /* DetailTextCellView.xib */,
 				55CC941B25A59CEF00D4BF19 /* LocalViewController.swift */,
 				55CC945625A68E4300D4BF19 /* DirView.swift */,
 				55CC945C25A6964900D4BF19 /* DirView.xib */,
@@ -288,11 +300,13 @@
 				5586E38225A3FF6A0080C610 /* Assets.xcassets in Resources */,
 				5586E3AA25A457530080C610 /* DetailListCellView.xib in Resources */,
 				55CC941E25A59F2E00D4BF19 /* Local.storyboard in Resources */,
+				55C5A59025AD727B00E219AF /* DetailIConCellView.xib in Resources */,
 				5586E38525A3FF6A0080C610 /* Main.storyboard in Resources */,
 				55CC941925A58C4D00D4BF19 /* List.plist in Resources */,
 				55CC945D25A6964900D4BF19 /* DirView.xib in Resources */,
 				55CC946125A6A14F00D4BF19 /* ContentView.xib in Resources */,
 				5586E3A225A443A30080C610 /* HomeCellView.xib in Resources */,
+				55C5A59425AE85FB00E219AF /* DetailTextCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +373,7 @@
 				55CC944F25A5A46D00D4BF19 /* Collection+SafeSubscript.swift in Sources */,
 				5586E39E25A43C760080C610 /* HomeList.swift in Sources */,
 				5586E3AE25A540530080C610 /* MainSplitView.swift in Sources */,
+				55C5A58C25AD725200E219AF /* DetailIConCellView.swift in Sources */,
 				55CC945F25A6A14300D4BF19 /* ContentView.swift in Sources */,
 				55CC945525A5A4E300D4BF19 /* NSImage+Tinted.swift in Sources */,
 				55CC944A25A5A46D00D4BF19 /* DraggingView.swift in Sources */,
@@ -372,6 +387,7 @@
 				55CC945325A5A46D00D4BF19 /* StatefulColor.swift in Sources */,
 				55CC944225A5A46D00D4BF19 /* DragViewContainer.swift in Sources */,
 				55CC945725A68E4300D4BF19 /* DirView.swift in Sources */,
+				55C5A58E25AD726B00E219AF /* DetailTextCellView.swift in Sources */,
 				55CC945125A5A46D00D4BF19 /* FatSidebarItem.swift in Sources */,
 				5586E3AC25A537470080C610 /* MainSplitVC.swift in Sources */,
 				55CC944825A5A46D00D4BF19 /* NSTextField+Label.swift in Sources */,
@@ -520,6 +536,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 223US8T63D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,6 +565,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = 223US8T63D;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (

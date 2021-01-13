@@ -33,5 +33,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         return true
     }
+    
+    @IBAction func showHelp(sender:Any) {
+        
+//        [[ sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.cnblogs.com"]];
+        NSWorkspace.shared.open(URL.init(string: "https://github.com/TimorCan/EnglishCourse")!)
+    }
 }
 

@@ -4,9 +4,9 @@
         <title>Six</title>
         <item>
             <title>1.1</title>
-            <pubDate>周五, 08 1月 2021 11:04:48 +0800</pubDate>
+            <pubDate>周五, 08 1月 2021 11:56:37 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <enclosure url="https://gitee.com/verfing/english-course/attach_files/578214/download/Six%201.1.dmg" sparkle:version="1" sparkle:shortVersionString="1.1" length="10764893" type="application/octet-stream" sparkle:edSignature="agS+cEPF+TmXT9MXTb9dJBhtXxQAx+PGNBabkcceo+BYd3f8KQDcKW6JHTIvmqzZg8QSGxUsDg2tp8fWw+YwBw=="/>
+            <enclosure url="https://github.com/TimorCan/EnglishCourse/releases/download/V1.0/Six.dmg" sparkle:version="1.1" sparkle:shortVersionString="1.1" length="10747378" type="application/octet-stream" sparkle:edSignature="HvXmX2rFi6dGqXZFFRHTRcSackfbw9ISC5tXzIOIH7bCeBRJNqV2b1c+CqqaisTXm0U18vB5qpmpUdTaebm0Aw=="/>
         </item>
     </channel>
 </rss>
