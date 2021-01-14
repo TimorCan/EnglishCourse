@@ -308,11 +308,40 @@ Kevin：Wait and see.</string>
 				<key>title</key>
 				<string>情景模拟1--海关</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：Jimmy,Rose请根据以下中文提示进行英语对话</string>
+				<string>背景提示：
+事件参与人物：Jimmy,Rose
+请根据以下中文提示进行英语对话</string>
 				<key>chinese</key>
-				<string>Jimmy：你到中国的目的是什么？Rose：旅游，我想去三亚看海。Jimmy：你的签证是两周，你打算呆更久吗？Rose：不会，我十二天后就回去了。Jimmy：请问你的包里都有什么？Rose：只是一个相机和一些衣服。Jimmy：你没有携带任何食物吧？Rose：没有。Jimmy：好的，这是例行检查，你能把你的包打开看看吗？Rose：好的。</string>
+				<string>Jimmy：你到中国的目的是什么？
+Rose：旅游，我想去三亚看海。
+
+Jimmy：你的签证是两周，你打算呆更久吗？
+Rose：不会，我十二天后就回去了。
+
+Jimmy：请问你的包里都有什么？
+Rose：只是一个相机和一些衣服。
+
+Jimmy：你没有携带任何食物吧？
+Rose：没有。
+
+Jimmy：好的，这是例行检查，你能把你的包打开看看吗？
+Rose：好的。</string>
 				<key>english</key>
-				<string>Jimmy：What is the purpose of your visit to China？Rose：Travel，I want to go to Sanya and see the sea.Jimmy：The visa is good for two weeks，do you intend to stay longer than that？Rose：No,I will fly back 12 days from now.Jimmy：What do you have in the bag？Rose：Just a camera and some clothes.Jimmy：You are not carrying any food with you ,right？Rose：No.Jimmy：Ok,this is a routine check,would you mind opening the bag？Rose：Alright.</string>
+				<string>Jimmy：What is the purpose of your visit to China？
+Rose：Travel，I want to go to Sanya and see the sea.
+
+Jimmy：The visa is good for two weeks，do you intend to stay longer than that？
+Rose：No,I will fly back 12 days from now.
+
+Jimmy：What do you have in the bag？
+Rose：Just a camera and some clothes.
+
+Jimmy：You are not carrying any food with you ,right？
+Rose：No.
+
+Jimmy：Ok,this is a routine check,would you mind opening the bag？
+Rose：Alright.
+</string>
 				<key>image</key>
 				<string>ppt_06_01</string>
 			</dict>
@@ -320,11 +349,35 @@ Kevin：Wait and see.</string>
 				<key>title</key>
 				<string>2.情景模拟--旅游</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：xiaoming&amp;Lisa请根据以下中文提示进行英语对话：</string>
+				<string>背景提示：
+事件参与人物：xiaoming&amp;Lisa
+请根据以下中文提示进行英语对话：
+</string>
 				<key>chinese</key>
-				<string>xiaoming：欢迎来到南京，南京是江苏的省会！Lisa：能不能告诉我有哪些值得参观的地方？xiaoming：有很多著名的景点比如玄武湖，紫金山，鸡鸣寺。Lisa：哪个最吸引你呢？xiaoming：紫金山，欣赏风景的同时你也能锻炼身体。Lisa：听起来不错，我非常喜欢旅游。xiaoming：我很欣赏你。Lisa：是的，那你有空带我去吧。</string>
+				<string>xiaoming：欢迎来到南京，南京是江苏的省会！
+Lisa：能不能告诉我有哪些值得参观的地方？
+
+xiaoming：有很多著名的景点比如玄武湖，紫金山，鸡鸣寺。
+Lisa：哪个最吸引你呢？
+
+xiaoming：紫金山，欣赏风景的同时你也能锻炼身体。
+Lisa：听起来不错，我非常喜欢旅游。
+
+xiaoming：我很欣赏你。
+Lisa：是的，那你有空带我去吧。</string>
 				<key>english</key>
-				<string>xiaoming：Welcome to Nanjing，Nanjing is the capital of Jiangsu Province！Lisa：Can you tell me some places worth visiting?xiaoming：There are many famous places, such as Xuanwu Lake, Zijin Mountain, Jiming temple.Lisa：Which attracts you most？xiaoming：Zijin Mountain，While enjoying the scenery, you can also exercise.Lisa：That sounds good. I like traveling very much.xiaoming：I appreciate you very much. Lisa：Yeah,please take me to the mountain when you have time.</string>
+				<string>xiaoming：Welcome to Nanjing，Nanjing is the capital of Jiangsu Province！
+Lisa：Can you tell me some places worth visiting?
+
+xiaoming：There are many famous places, such as Xuanwu Lake, Zijin Mountain, Jiming temple.
+Lisa：Which attracts you most？
+
+xiaoming：Zijin Mountain，While enjoying the scenery, you can also exercise.
+Lisa：That sounds good. I like traveling very much.
+
+xiaoming：I appreciate you very much. 
+Lisa：Yeah,please take me to the mountain when you have time.
+</string>
 				<key>image</key>
 				<string>ppt_06_02</string>
 			</dict>
@@ -332,11 +385,33 @@ Kevin：Wait and see.</string>
 				<key>title</key>
 				<string>3.情景模拟3--工作交接</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：Jessica、Ammy请根据以下中文提示进行英语对话：</string>
+				<string>背景提示：
+事件参与人物：Jessica、Ammy
+请根据以下中文提示进行英语对话：
+</string>
 				<key>chinese</key>
-				<string>Jessica：Ammy，从明天开始你将接替我的工作。我先给你讲一下办公室制度。Ammy：谢谢你，了解这些对我来说很重要。Jessica：工作时间是上午9点到下午4点，务必不要迟到或者矿工。Ammy：好的，我会忠于职守的。Jessica：要做一名好秘书，你需要对办公室的日常非常熟悉。Ammy：好的，我会尽力的。Jessica:师父领进门修行在个人。祝你好运！</string>
+				<string>Jessica：Ammy，从明天开始你将接替我的工作。我先给你讲一下办公室制度。
+Ammy：谢谢你，了解这些对我来说很重要。
+
+Jessica：工作时间是上午9点到下午4点，务必不要迟到或者矿工。
+Ammy：好的，我会忠于职守的。
+
+Jessica：要做一名好秘书，你需要对办公室的日常非常熟悉。
+Ammy：好的，我会尽力的。
+
+Jessica:师父领进门修行在个人。祝你好运！
+</string>
 				<key>english</key>
-				<string>Jessica：Ammy，you will take over my work from tommorrow.Let me tell you about the office rules first.Ammy：Thank you，It&apos;s very important for me to know about them. Jessica：The working hours are from 9am to 4pm. Besure not to be late or absent.Ammy：OK. I&apos;ll do my duties.Jessica：To be a good secretary, you will have to be quite familiar with office routine.Ammy：Yes, I&apos; ll try my best.Jessica:You may lead a horse to the river,But you cannot make him drink.Good luck!</string>
+				<string>Jessica：Ammy，you will take over my work from tommorrow.Let me tell you about the office rules first.
+Ammy：Thank you，It&apos;s very important for me to know about them. 
+
+Jessica：The working hours are from 9am to 4pm. Besure not to be late or absent.
+Ammy：OK. I&apos;ll do my duties.
+
+Jessica：To be a good secretary, you will have to be quite familiar with office routine.
+Ammy：Yes, I&apos; ll try my best.
+
+Jessica:You may lead a horse to the river,But you cannot make him drink.Good luck!</string>
 				<key>image</key>
 				<string>ppt_06_03</string>
 			</dict>
@@ -348,11 +423,91 @@ Kevin：Wait and see.</string>
 事件参与人物：Gary、Kevin
 请根据以下中文提示进行英语对话：</string>
 				<key>chinese</key>
-				<string>Gary：Kevin，你平时有空的时候都干啥？Kevin：我一般都看书。Gary：你对哪一类书比较感兴趣呢？Kevin：我喜欢侦探类的书，你呢。Gary：我不喜欢看书，我喜欢看电影。Kevin：太巧了！钢铁侠周五要上映了，你愿意和我一起去看吗？Gary：我很乐意！Kevin：那我们周五晚上再见！</string>
+				<string>Gary：Kevin，你平时有空的时候都干啥？
+Kevin：我一般都看书。
+
+Gary：你对哪一类书比较感兴趣呢？
+Kevin：我喜欢侦探类的书，你呢。
+
+Gary：我不喜欢看书，我喜欢看电影。
+Kevin：太巧了！钢铁侠周五要上映了，你愿意和我一起去看吗？
+
+Gary：我很乐意！
+Kevin：那我们周五晚上再见！</string>
 				<key>english</key>
-				<string>Gary：Kevin，what do you do in your spare time？Kevin：I usually read books.Gary：What kind of book are you interested in？Kevin：I like books about detectives,what about you?Gary：I don&apos;t like reading books,I like watching movie.Kevin：What a coincidence！The Iron man will be released on Friday，would you like to go with me？Gary：I&apos;m glad to！Kevin：I&apos;ll see you on Friday night！</string>
+				<string>Gary：Kevin，what do you do in your spare time？
+Kevin：I usually read books.
+
+Gary：What kind of book are you interested in？
+Kevin：I like books about detectives,what about you?
+
+Gary：I don&apos;t like reading books,I like watching movie.
+Kevin：What a coincidence！The Iron man will be released on Friday，would you like to go with me？
+
+Gary：I&apos;m glad to！
+Kevin：I&apos;ll see you on Friday night！</string>
 				<key>image</key>
 				<string>ppt_06_04</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>英语口语训练第七课</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>情景模拟1--出行</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：Jimmy,Rose请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Jimmy：周末过得咋样？Rose：欧，那简直太棒了！Jimmy：你干啥了？你去旅行了？Rose：是的，我去了一个大城市。Jimmy：北京还是上海？谁跟你一起去的？Rose：北京，就我一个人去的。Jimmy：你怎么去北京的，坐飞机还是高铁？Rose：飞机，非常便宜，因为我很早就预订了机票了。Jimmy：你住哪的？Rose：我住我高中同学家里的。</string>
+				<key>english</key>
+				<string>Jimmy：How was your weekend？Rose：Oh,that was fantastic！Jimmy：What did you do？Did you go for a travel？Rose：Yes,I went to a big city.Jimmy：Beijing or Shanghai？Who did you go with？Rose：Beijing,just myself.Jimmy：How did you go to Beijing,by air or railway？Rose：By air，It&apos;s really cheap because I booked the ticket early.Jimmy：Where did you stay？Rose：I stayed at my high school classmate&apos;s home.</string>
+				<key>image</key>
+				<string>ppt_07_01</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>2.情景模拟--探亲</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：son&amp;Dad请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>son：怎么了爸爸？Dad：春节要到了。你要回来吗？你妈很想你。son：我很想回家，但是我太忙了回不去。Dad：我和你妈打算去昆山看你。son：你确定吗？Dad：当然了，你只需要告诉我怎么到你的公寓。son：你们乘高铁到昆山高铁站。我开车去接你们。Dad：大概要坐多久的高铁啊。son：大约1个半小时，我猜的。Dad：我知道了。</string>
+				<key>english</key>
+				<string>son：Dad,what&apos;s up？Dad：Spring Festival is coming.Are you going to come back home?Your mother is always missing you.son：I&apos;d love to,but I&apos;m too busy to go home.Dad：Your mother and I plan to go to Kunshan to see you.son：Are you sure？Dad：Of course，What you need to do is tell me how to arrive at your department.son：You take the high-speed railway to Kunshan railway station and I will drive you back.Dad：How long will we spend in the high-speed railway?son：Around one hour and a half,I guess.Dad：Get it!</string>
+				<key>image</key>
+				<string>ppt_07_02</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>3.情景模拟3--礼物</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Jessica、Ammy
+请根据以下中文提示进行英语对话：
+</string>
+				<key>chinese</key>
+				<string>Jessica：Ammy，明天是周日。你打算干啥？Ammy：呃，我昨天收到一个派对的邀请。Jessica：什么类型的派对？谁的派对？Ammy：是Lucy的，她明天生日，但是我不知道给她买什么礼物。Jessica：让我想想，大多数女生都喜欢娃娃，你带个娃娃去吧。Ammy：一个娃娃？她又不是小孩。Jessica:好吧。。。花如何？Ammy：我赞成，我马上去花店。</string>
+				<key>english</key>
+				<string>Jessica：Ammy，Tomorrow is Sunday.What are you going to do？Ammy：Um，I got an invitation to a party yesterday.Jessica：What kind of party？Whose party?Ammy：It&apos;s Lucy&apos;s party，tomorrow is her birthday，but I don&apos;t kown what present to bring.Jessica：Let me see...most girls like dolls,you can buy a doll to bring.Ammy：A doll?She is not a kid!Jessica:Well,how about flowers?Ammy：I agree with this,I will go to the flower shop at once.</string>
+				<key>image</key>
+				<string>ppt_07_03</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>4.情景模拟4--计划</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Gary、Kevin
+请根据以下中文提示进行英语对话：</string>
+				<key>chinese</key>
+				<string>Kiki：Sam，你对下个短期计划有什么建议吗？Sam：我们把我们的下个目标定为成为全国前100强，怎么样？Kiki：真是个有雄心又具有挑战的目标！你计划多久实现这个目标？Sam：大约5年。如果我们保持目前的发展速度，我有信心我们会提前达到目标。Kiki：你能制定一个细致的5年计划时间表吗？Sam：没问题。Kiki：有志者事竟成。加油！</string>
+				<key>english</key>
+				<string>Kiki：Sam，What&apos;s your suggestion about our next short-term plan？Sam：Let&apos;s set our next goal to be one of the top 100 companies in our country,ok?Kiki：That&apos;s really an ambitious and challenging short-term goal!How long do you plan to achieve this goal?Sam：About five years.I have confidence that we can achieve that ahead of time  if we keep on developing at a speed like this.Kiki：Could you work out a more detailed timetable for our next five-year plan?Sam：No problem！Kiki：Where there is a will，there is a way.Fighting!</string>
+				<key>image</key>
+				<string>ppt_07_04</string>
 			</dict>
 		</array>
 	</dict>

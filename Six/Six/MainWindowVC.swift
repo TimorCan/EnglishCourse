@@ -8,6 +8,7 @@
 
 import Cocoa
 import CommonCrypto
+import CoreGraphics
 
 class MainWindowVC: NSWindowController {
 
@@ -57,7 +58,10 @@ class MainWindowVC: NSWindowController {
         
         let app:AppDelegate = NSApplication.shared.delegate as! AppDelegate
         guard let detailVC = app.detailVC else{return}
-        
+         
+       
+      
+    
         //导出详情
         detailVC.view.lockFocus()
         
@@ -65,7 +69,7 @@ class MainWindowVC: NSWindowController {
         
         detailVC.view.unlockFocus()
         image?.lockFocus()
-        let bits = NSBitmapImageRep.init(focusedViewRect: detailVC.view.frame)
+        let bits = NSBitmapImageRep.init(focusedViewRect: detailVC.tableView.bounds)
         image?.unlockFocus()
         
         
