@@ -2,11 +2,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Six</title>
+        <description>create by ICT</description>
+        <language>cn</language>
         <item>
-            <title>1.1</title>
-            <pubDate>周五, 08 1月 2021 11:56:37 +0800</pubDate>
+            <title>1.2</title>
+            <description>
+              <![CDATA[
+                <ul>
+                  <li>新增课程8</li>
+                  <li>欢迎使用</li>
+                  <li> <a href="https://github.com/TimorCan/EnglishCourse">官方网站</a></li>
+                  <li><img src="https://github.com/platoapp" alt="迪迦"/></li>
+                </ul>
+              ]]>
+            </description>
+            <pubDate>周五, 08 1月 2021 11:04:48 +0800</pubDate>
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/TimorCan/EnglishCourse/releases/download/V1.0/Six.dmg" sparkle:version="1.1" sparkle:shortVersionString="1.1" length="10747378" type="application/octet-stream" sparkle:edSignature="HvXmX2rFi6dGqXZFFRHTRcSackfbw9ISC5tXzIOIH7bCeBRJNqV2b1c+CqqaisTXm0U18vB5qpmpUdTaebm0Aw=="/>
+            <enclosure url="https://github.com/TimorCan/EnglishCourse/releases/download/V1.0/Six.dmg" sparkle:version="1.2" sparkle:shortVersionString="1.2" length="11369814" type="application/octet-stream" sparkle:edSignature="XYYsc74IBQX8K+aBfPs+R+7eE169Ag1PlTwI+90fllpyTWtL1kaAcszkPSgiQLQ14I7L4rYBtHhveNkYgADMAQ=="/>
         </item>
     </channel>
 </rss>
