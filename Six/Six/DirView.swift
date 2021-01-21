@@ -45,7 +45,7 @@ class DirView: NSView {
     
     func showBtn(course:Course)  {
         
-        if course.Items.count != 4 {
+        if course.Items.count < 4 {
              self.btn1.title = "error"
              self.btn2.title = "error"
              self.btn3.title = "error"

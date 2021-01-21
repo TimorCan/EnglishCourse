@@ -202,19 +202,6 @@
             </objects>
             <point key="canvasLocation" x="22" y="149"/>
         </scene>
-        <!--Local View Controller-->
-        <scene sceneID="hIz-AP-VOD">
-            <objects>
-                <viewController storyboardIdentifier="LocalViewController" id="XfG-lQ-9wD" customClass="LocalViewController" customModule="Six" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </view>
-                </viewController>
-                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-229" y="642"/>
-        </scene>
         <!--Six-->
         <scene sceneID="I7u-k9-xEb">
             <objects>

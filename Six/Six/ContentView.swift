@@ -76,8 +76,8 @@ class ContentView: NSView {
             currentIndex = 0
         }
         
-        if currentIndex >= 3 {
-            currentIndex = 3
+        if currentIndex >= (self.course?.Items.count ?? 1) - 1 {
+            currentIndex = (self.course?.Items.count ?? 1) - 1
         }
         reloadContent(index: currentIndex)
     }
@@ -89,8 +89,8 @@ class ContentView: NSView {
                currentIndex = 0
            }
            
-           if currentIndex >= 3 {
-               currentIndex = 3
+           if currentIndex >= (self.course?.Items.count ?? 1) - 1 {
+               currentIndex = (self.course?.Items.count ?? 1) - 1
            }
          reloadContent(index: currentIndex)
        }

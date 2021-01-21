@@ -460,11 +460,41 @@ Kevin：I&apos;ll see you on Friday night！</string>
 				<key>title</key>
 				<string>情景模拟1--出行</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：Jimmy,Rose请根据以下中文提示进行英语对话：</string>
+				<string>背景提示：
+事件参与人物：Jimmy,Rose
+请根据以下中文提示进行英语对话：</string>
 				<key>chinese</key>
-				<string>Jimmy：周末过得咋样？Rose：欧，那简直太棒了！Jimmy：你干啥了？你去旅行了？Rose：是的，我去了一个大城市。Jimmy：北京还是上海？谁跟你一起去的？Rose：北京，就我一个人去的。Jimmy：你怎么去北京的，坐飞机还是高铁？Rose：飞机，非常便宜，因为我很早就预订了机票了。Jimmy：你住哪的？Rose：我住我高中同学家里的。</string>
+				<string>Jimmy：周末过得咋样？
+Rose：欧，那简直太棒了！
+
+Jimmy：你干啥了？你去旅行了？
+Rose：是的，我去了一个大城市。
+
+Jimmy：北京还是上海？谁跟你一起去的？
+Rose：北京，就我一个人去的。
+
+Jimmy：你怎么去北京的，坐飞机还是高铁？
+Rose：飞机，非常便宜，因为我很早就预订了机票了。
+
+Jimmy：你住哪的？
+Rose：我住我高中同学家里的。
+</string>
 				<key>english</key>
-				<string>Jimmy：How was your weekend？Rose：Oh,that was fantastic！Jimmy：What did you do？Did you go for a travel？Rose：Yes,I went to a big city.Jimmy：Beijing or Shanghai？Who did you go with？Rose：Beijing,just myself.Jimmy：How did you go to Beijing,by air or railway？Rose：By air，It&apos;s really cheap because I booked the ticket early.Jimmy：Where did you stay？Rose：I stayed at my high school classmate&apos;s home.</string>
+				<string>Jimmy：How was your weekend？
+Rose：Oh,that was fantastic！
+
+Jimmy：What did you do？Did you go for a travel？
+Rose：Yes,I went to a big city.
+
+Jimmy：Beijing or Shanghai？Who did you go with？
+Rose：Beijing,just myself.
+
+Jimmy：How did you go to Beijing,by air or railway？
+Rose：By air，It&apos;s really cheap because I booked the ticket early.
+
+Jimmy：Where did you stay？
+Rose：I stayed at my high school classmate&apos;s home.
+</string>
 				<key>image</key>
 				<string>ppt_07_01</string>
 			</dict>
@@ -472,11 +502,41 @@ Kevin：I&apos;ll see you on Friday night！</string>
 				<key>title</key>
 				<string>2.情景模拟--探亲</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：son&amp;Dad请根据以下中文提示进行英语对话：</string>
+				<string>背景提示：
+事件参与人物：son&amp;Dad
+请根据以下中文提示进行英语对话：</string>
 				<key>chinese</key>
-				<string>son：怎么了爸爸？Dad：春节要到了。你要回来吗？你妈很想你。son：我很想回家，但是我太忙了回不去。Dad：我和你妈打算去昆山看你。son：你确定吗？Dad：当然了，你只需要告诉我怎么到你的公寓。son：你们乘高铁到昆山高铁站。我开车去接你们。Dad：大概要坐多久的高铁啊。son：大约1个半小时，我猜的。Dad：我知道了。</string>
+				<string>son：怎么了爸爸？
+Dad：春节要到了。你要回来吗？你妈很想你。
+
+son：我很想回家，但是我太忙了回不去。
+Dad：我和你妈打算去昆山看你。
+
+son：你确定吗？
+Dad：当然了，你只需要告诉我怎么到你的公寓。
+
+son：你们乘高铁到昆山高铁站。我开车去接你们。
+Dad：大概要坐多久的高铁啊。
+
+son：大约1个半小时，我猜的。
+Dad：我知道了。
+</string>
 				<key>english</key>
-				<string>son：Dad,what&apos;s up？Dad：Spring Festival is coming.Are you going to come back home?Your mother is always missing you.son：I&apos;d love to,but I&apos;m too busy to go home.Dad：Your mother and I plan to go to Kunshan to see you.son：Are you sure？Dad：Of course，What you need to do is tell me how to arrive at your department.son：You take the high-speed railway to Kunshan railway station and I will drive you back.Dad：How long will we spend in the high-speed railway?son：Around one hour and a half,I guess.Dad：Get it!</string>
+				<string>son：Dad,what&apos;s up？
+Dad：Spring Festival is coming.Are you going to come back home?Your mother is always missing you.
+
+son：I&apos;d love to,but I&apos;m too busy to go home.
+Dad：Your mother and I plan to go to Kunshan to see you.
+
+son：Are you sure？
+Dad：Of course，What you need to do is tell me how to arrive at your department.
+
+son：You take the high-speed railway to Kunshan railway station and I will drive you back.
+Dad：How long will we spend in the high-speed railway?
+
+son：Around one hour and a half,I guess.
+Dad：Get it!
+</string>
 				<key>image</key>
 				<string>ppt_07_02</string>
 			</dict>
@@ -489,9 +549,30 @@ Kevin：I&apos;ll see you on Friday night！</string>
 请根据以下中文提示进行英语对话：
 </string>
 				<key>chinese</key>
-				<string>Jessica：Ammy，明天是周日。你打算干啥？Ammy：呃，我昨天收到一个派对的邀请。Jessica：什么类型的派对？谁的派对？Ammy：是Lucy的，她明天生日，但是我不知道给她买什么礼物。Jessica：让我想想，大多数女生都喜欢娃娃，你带个娃娃去吧。Ammy：一个娃娃？她又不是小孩。Jessica:好吧。。。花如何？Ammy：我赞成，我马上去花店。</string>
+				<string>Jessica：Ammy，明天是周日。你打算干啥？
+Ammy：呃，我昨天收到一个派对的邀请。
+
+Jessica：什么类型的派对？谁的派对？
+Ammy：是Lucy的，她明天生日，但是我不知道给她买什么礼物。
+
+Jessica：让我想想，大多数女生都喜欢娃娃，你带个娃娃去吧。
+Ammy：一个娃娃？她又不是小孩。
+
+Jessica:好吧。。。花如何？
+Ammy：我赞成，我马上去花店。</string>
 				<key>english</key>
-				<string>Jessica：Ammy，Tomorrow is Sunday.What are you going to do？Ammy：Um，I got an invitation to a party yesterday.Jessica：What kind of party？Whose party?Ammy：It&apos;s Lucy&apos;s party，tomorrow is her birthday，but I don&apos;t kown what present to bring.Jessica：Let me see...most girls like dolls,you can buy a doll to bring.Ammy：A doll?She is not a kid!Jessica:Well,how about flowers?Ammy：I agree with this,I will go to the flower shop at once.</string>
+				<string>Jessica：Ammy，Tomorrow is Sunday.What are you going to do？
+Ammy：Um，I got an invitation to a party yesterday.
+
+Jessica：What kind of party？Whose party?
+Ammy：It&apos;s Lucy&apos;s party，tomorrow is her birthday，but I don&apos;t kown what present to bring.
+
+Jessica：Let me see...most girls like dolls,you can buy a doll to bring.
+Ammy：A doll?She is not a kid!
+
+Jessica:Well,how about flowers?
+Ammy：I agree with this,I will go to the flower shop at once.
+</string>
 				<key>image</key>
 				<string>ppt_07_03</string>
 			</dict>
@@ -503,9 +584,98 @@ Kevin：I&apos;ll see you on Friday night！</string>
 事件参与人物：Gary、Kevin
 请根据以下中文提示进行英语对话：</string>
 				<key>chinese</key>
-				<string>Kiki：Sam，你对下个短期计划有什么建议吗？Sam：我们把我们的下个目标定为成为全国前100强，怎么样？Kiki：真是个有雄心又具有挑战的目标！你计划多久实现这个目标？Sam：大约5年。如果我们保持目前的发展速度，我有信心我们会提前达到目标。Kiki：你能制定一个细致的5年计划时间表吗？Sam：没问题。Kiki：有志者事竟成。加油！</string>
+				<string>Kiki：Sam，你对下个短期计划有什么建议吗？
+Sam：我们把我们的下个目标定为成为全国前100强，怎么样？
+
+Kiki：真是个有雄心又具有挑战的目标！你计划多久实现这个目标？
+Sam：大约5年。如果我们保持目前的发展速度，我有信心我们会提前达到目标。
+
+Kiki：你能制定一个细致的5年计划时间表吗？
+Sam：没问题。
+
+Kiki：有志者事竟成。加油！</string>
 				<key>english</key>
-				<string>Kiki：Sam，What&apos;s your suggestion about our next short-term plan？Sam：Let&apos;s set our next goal to be one of the top 100 companies in our country,ok?Kiki：That&apos;s really an ambitious and challenging short-term goal!How long do you plan to achieve this goal?Sam：About five years.I have confidence that we can achieve that ahead of time  if we keep on developing at a speed like this.Kiki：Could you work out a more detailed timetable for our next five-year plan?Sam：No problem！Kiki：Where there is a will，there is a way.Fighting!</string>
+				<string>Kiki：Sam，What&apos;s your suggestion about our next short-term plan？
+Sam：Let&apos;s set our next goal to be one of the top 100 companies in our country,ok?
+
+Kiki：That&apos;s really an ambitious and challenging short-term goal!How long do you plan to achieve this goal?
+Sam：About five years.I have confidence that we can achieve that ahead of time  if we keep on developing at a speed like this.
+
+Kiki：Could you work out a more detailed timetable for our next five-year plan?
+Sam：No problem！
+
+Kiki：Where there is a will，there is a way.Fighting!</string>
+				<key>image</key>
+				<string>ppt_07_04</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>英语口语训练第八课</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>情景模拟1--租房</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：Jimmy,Rose</string>
+				<key>chinese</key>
+				<string>Jimmy：有个朋友告诉我可能能在这里找到一间房子。Rose：是的，我下周有间房间空出来。Jimmy：你开什么价?Rose：12,000 元一年.Jimmy：你这有什么规定？Rose：在公寓里不能养宠物。Jimmy：好的，可以先看下房间吗？Rose：你可以等会再来吗? 我们午饭正吃到一半。Jimmy：好的，我过会再来。</string>
+				<key>english</key>
+				<string>Jimmy：A friend told me that I might find a room here.Rose：Yes. I&apos;ll have a room free next week.Jimmy：What do you charge?Rose：12,000 yuan a year.Jimmy：What rules do you have？Rose：You can&apos;t keep a pet in the apartment.Jimmy：OK . Would it be all right to look at the room first？Rose：Could you come back later? We&apos;re right in the middle of dinner.Jimmy：Ok,I&apos;ll come back later.</string>
+				<key>image</key>
+				<string>ppt_07_01</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟2--改变计划</string>
+				<key>tips</key>
+				<string>事件参与人物：Ruby&amp;David</string>
+				<key>chinese</key>
+				<string>Ruby：今天天气怎么样?David：雪停了，但是有点小风。Ruby：下雪后地面白茫茫的。David：街道上都是冰。 Ruby：你知道今天多少度吗?David：至少零下10度。Ruby：太冷了不想出门，我们还要去滑雪吗？David：算了吧，就呆在家里吧。Ruby：计划总赶不上变化。David：是啊，太可惜了!</string>
+				<key>english</key>
+				<string>Ruby：What is the weather like today?David：It stops snowing, but it&apos;s a bit wind.Ruby：The ground was all white after the snow fell.David：The streets are covered with ice. Ruby：Do you know what the temperature is today?David：It seems 10 degree below zero at least.Ruby：It&apos;s too cold to go outside.Do we still go skiing？David：Forget  it! Let&apos;s stay at home.Ruby：Plans can not keep pace with changes.David：Yes,what a pity!</string>
+				<key>image</key>
+				<string>ppt_07_02</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟3--求职</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Jessica、Ammy
+请根据以下中文提示进行英语对话：
+</string>
+				<key>chinese</key>
+				<string>Jessica：打扰一下，我能见一下你们商店的经理吗?Ammy：我就是经理，有什么可以帮助你吗?Jessica：太好了，我看到商店外的招聘广告了，我来看下是否有我能做的工作。Ammy:请坐，你想当售货员吗？Jessica：那很适合我。Ammy：你什么时候能开始上班呢?Jessica:下周一怎样?Ammy：很棒，下周一见！</string>
+				<key>english</key>
+				<string>Jessica：Excuse me.May I see the manager of your store?Ammy：I am the manager.Can I help you?Jessica：Oh,great,I saw a job ad outside your store.I am coming to see if there is any job available for me.Ammy:Take a seat,please.Would you like to be a shop assistant？Jessica：It quite suits me.Ammy：When can you start working?Jessica:How about next Monday?Ammy：Great！See you next Monday.</string>
+				<key>image</key>
+				<string>ppt_07_03</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟4--接机</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：Kiki、Brown</string>
+				<key>chinese</key>
+				<string>Kiki：您好，格林先生，很高兴能再次见到您。 过的怎么样?Green：很好。您怎么样?Kiki：还可以，谢谢。我们公司派我来这儿接您。 Green：你们真的是太好了。Kiki：旅途怎么样?Green：嗯，总体来说还好，就是从纽约到上海真的是一次长途旅行啊。 Kiki：这是您第一次来中国吧?Green：是的，我多年来一直在梦想着能来中国。</string>
+				<key>english</key>
+				<string>Kiki：How are you , MR.Green? How nice to see you again. How is everything going?Green：Very well. What about you?Kiki：Not bad. thanks. Our company has sent me to pick you up here. Green：That is so nice of you.Kiki：How was your flight?Green：Well,generally speaking ,it was fine.But it is really a long distance from New York to ShangHai. Kiki：Is it your first visit to China? Green：Yes,I have been dreaming of coming to China for years.</string>
+				<key>image</key>
+				<string>ppt_07_04</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>5.情景模拟5--请假</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Kiki、Brown</string>
+				<key>chinese</key>
+				<string>Kiki：Brown，来一下我办公室。Brown：好的，我5分钟就带着文件来你办公室。Kiki：好的，这次项目已经顺利完成了。Brown：我还有一件事想跟你说我要请两天的假，下周一到下周二。Kiki：我可以知道理由吗？Brown：家里有事。Kiki：明白了，你可以请假。Brown：谢谢，感谢你的理解。</string>
+				<key>english</key>
+				<string>Kiki：Brown，come to my office.Brown：All right,I am coming to your office with documents in five minutes.Kiki：Ok,this project has been completed perfectly.Brown：I have one more thing to talk about.I would like to take two days leave from next Monday to next Tuesday.Kiki：May I know the reason for your leave？Brown：I have some family issues to deal with.Kiki：I see.It&apos;s ok for you to take two days leave.Brown：Thank you for your understanding.</string>
 				<key>image</key>
 				<string>ppt_07_04</string>
 			</dict>

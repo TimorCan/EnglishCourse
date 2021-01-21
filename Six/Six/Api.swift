@@ -62,7 +62,7 @@ extension Api: TargetType {
         switch self {
         case .list:
             return .requestParameters(parameters: ["app": "6minenglish6"], encoding: URLEncoding.default)
-        case .englishdaily(let maxId,let path):
+        case .englishdaily(_,let path):
             return .requestParameters(parameters: ["limit": 10,"s":path,"syncText":1], encoding: URLEncoding.default)
         case .commapi(let path):
             return .requestParameters(parameters: ["limit": 10,"s":path,"syncText":1], encoding: URLEncoding.default)
