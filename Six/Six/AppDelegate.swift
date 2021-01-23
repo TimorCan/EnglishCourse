@@ -7,6 +7,9 @@
 //
 
 import Cocoa
+import RealmSwift
+import Swift
+
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -16,10 +19,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var mainVC:MainSplitVC?
     var lcoalVC:LocalViewController?
     var detailVC:DetailViewController?
-    
+//    let realm = try! Realm()
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+//        let realm = try! Realm()
+//        let path = "Contents/Resources/pptx.plist"
+//        let url:URL = Bundle.main.bundleURL.appendingPathComponent(path)
+//        guard let data = try? Data.init(contentsOf: url)else{return}
+//        guard  let json:[[String:Any]] = try? PropertyListSerialization.propertyList(from: data, options: [], format: nil) as? [[String:Any]] else{
+//            return
+//        }
+//        let  jsonData :Data! = try? JSONSerialization.data(withJSONObject: json, options: [])
+        
+        
+        
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

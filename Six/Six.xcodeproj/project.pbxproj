@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		01E85B66B684DA14C856DDA3 /* Pods_Six.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D52E3B6BCD5F19A27A527D8F /* Pods_Six.framework */; };
+		551CC44B25B931B00042BC35 /* SoundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551CC44A25B931B00042BC35 /* SoundCell.swift */; };
+		551CC44D25B931BB0042BC35 /* SoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551CC44C25B931BB0042BC35 /* SoundCell.xib */; };
 		5586E37E25A3FF650080C610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E37D25A3FF650080C610 /* AppDelegate.swift */; };
 		5586E38025A3FF650080C610 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E37F25A3FF650080C610 /* ViewController.swift */; };
 		5586E38225A3FF6A0080C610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5586E38125A3FF6A0080C610 /* Assets.xcassets */; };
@@ -25,6 +27,10 @@
 		5586E3B025A552B30080C610 /* DetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3AF25A552B30080C610 /* DetailList.swift */; };
 		5586E3B225A554A00080C610 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3B125A554A00080C610 /* DetailItem.swift */; };
 		5586E3B425A585E30080C610 /* MainWindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3B325A585E30080C610 /* MainWindowVC.swift */; };
+		55C48AEA25BBD5D400D3FD9A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C48AE925BBD5C600D3FD9A /* libc++.tbd */; };
+		55C48AF425BBDDB300D3FD9A /* RealmSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55C48AE525BBD55A00D3FD9A /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		55C48AF525BBDDB600D3FD9A /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55C48AE625BBD55A00D3FD9A /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		55C48AFA25BBEBCE00D3FD9A /* ppt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C48AF925BBEBCE00D3FD9A /* ppt.swift */; };
 		55C5A58C25AD725200E219AF /* DetailIConCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A58B25AD725200E219AF /* DetailIConCellView.swift */; };
 		55C5A58E25AD726B00E219AF /* DetailTextCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */; };
 		55C5A59025AD727B00E219AF /* DetailIConCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */; };
@@ -59,7 +65,23 @@
 		55CC946125A6A14F00D4BF19 /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CC946025A6A14F00D4BF19 /* ContentView.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		55C48AF325BBDDA900D3FD9A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				55C48AF425BBDDB300D3FD9A /* RealmSwift.framework in CopyFiles */,
+				55C48AF525BBDDB600D3FD9A /* Realm.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		551CC44A25B931B00042BC35 /* SoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCell.swift; sourceTree = "<group>"; };
+		551CC44C25B931BB0042BC35 /* SoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoundCell.xib; sourceTree = "<group>"; };
 		5586E37A25A3FF650080C610 /* Six.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Six.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5586E37D25A3FF650080C610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5586E37F25A3FF650080C610 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +102,10 @@
 		5586E3AF25A552B30080C610 /* DetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailList.swift; sourceTree = "<group>"; };
 		5586E3B125A554A00080C610 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 		5586E3B325A585E30080C610 /* MainWindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowVC.swift; sourceTree = "<group>"; };
+		55C48AE525BBD55A00D3FD9A /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		55C48AE625BBD55A00D3FD9A /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		55C48AE925BBD5C600D3FD9A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		55C48AF925BBEBCE00D3FD9A /* ppt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ppt.swift; sourceTree = "<group>"; };
 		55C5A58B25AD725200E219AF /* DetailIConCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailIConCellView.swift; sourceTree = "<group>"; };
 		55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTextCellView.swift; sourceTree = "<group>"; };
 		55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailIConCellView.xib; sourceTree = "<group>"; };
@@ -123,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C48AEA25BBD5D400D3FD9A /* libc++.tbd in Frameworks */,
 				01E85B66B684DA14C856DDA3 /* Pods_Six.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +160,7 @@
 		46407B5D8539F86E912BAE00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55C48AE925BBD5C600D3FD9A /* libc++.tbd */,
 				D52E3B6BCD5F19A27A527D8F /* Pods_Six.framework */,
 			);
 			name = Frameworks;
@@ -141,6 +169,7 @@
 		5586E37125A3FF650080C610 = {
 			isa = PBXGroup;
 			children = (
+				55C48AE425BBD55A00D3FD9A /* Realm */,
 				55CC942E25A5A46D00D4BF19 /* FatSidebar */,
 				5586E37C25A3FF650080C610 /* Six */,
 				5586E37B25A3FF650080C610 /* Products */,
@@ -161,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				5586E37D25A3FF650080C610 /* AppDelegate.swift */,
+				55C48AF925BBEBCE00D3FD9A /* ppt.swift */,
 				5586E37F25A3FF650080C610 /* ViewController.swift */,
 				5586E3AB25A537470080C610 /* MainSplitVC.swift */,
 				5586E3AD25A540530080C610 /* MainSplitView.swift */,
@@ -178,6 +208,8 @@
 				55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */,
 				55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */,
 				55C5A59325AE85FB00E219AF /* DetailTextCellView.xib */,
+				551CC44A25B931B00042BC35 /* SoundCell.swift */,
+				551CC44C25B931BB0042BC35 /* SoundCell.xib */,
 				55CC941B25A59CEF00D4BF19 /* LocalViewController.swift */,
 				55CC945625A68E4300D4BF19 /* DirView.swift */,
 				55CC945C25A6964900D4BF19 /* DirView.xib */,
@@ -194,6 +226,15 @@
 				5586E3B325A585E30080C610 /* MainWindowVC.swift */,
 			);
 			path = Six;
+			sourceTree = "<group>";
+		};
+		55C48AE425BBD55A00D3FD9A /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				55C48AE525BBD55A00D3FD9A /* RealmSwift.framework */,
+				55C48AE625BBD55A00D3FD9A /* Realm.framework */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		55CC942E25A5A46D00D4BF19 /* FatSidebar */ = {
@@ -244,6 +285,7 @@
 				5586E37725A3FF650080C610 /* Frameworks */,
 				5586E37825A3FF650080C610 /* Resources */,
 				9EC4E9248DD05F39E5C467C7 /* [CP] Embed Pods Frameworks */,
+				55C48AF325BBDDA900D3FD9A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -307,6 +349,7 @@
 				55CC946125A6A14F00D4BF19 /* ContentView.xib in Resources */,
 				5586E3A225A443A30080C610 /* HomeCellView.xib in Resources */,
 				55C5A59425AE85FB00E219AF /* DetailTextCellView.xib in Resources */,
+				551CC44D25B931BB0042BC35 /* SoundCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,10 +410,12 @@
 				5586E3B025A552B30080C610 /* DetailList.swift in Sources */,
 				5586E3A625A455D80080C610 /* DetailListViewController.swift in Sources */,
 				5586E38025A3FF650080C610 /* ViewController.swift in Sources */,
+				55C48AFA25BBEBCE00D3FD9A /* ppt.swift in Sources */,
 				55CC944C25A5A46D00D4BF19 /* NSView+ImageRepresentation.swift in Sources */,
 				55CC944725A5A46D00D4BF19 /* DefaultTheme.swift in Sources */,
 				55CC941C25A59CEF00D4BF19 /* LocalViewController.swift in Sources */,
 				55CC944F25A5A46D00D4BF19 /* Collection+SafeSubscript.swift in Sources */,
+				551CC44B25B931B00042BC35 /* SoundCell.swift in Sources */,
 				5586E39E25A43C760080C610 /* HomeList.swift in Sources */,
 				5586E3AE25A540530080C610 /* MainSplitView.swift in Sources */,
 				55C5A58C25AD725200E219AF /* DetailIConCellView.swift in Sources */,
@@ -464,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -518,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -536,12 +581,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.1;
-				DEVELOPMENT_TEAM = 223US8T63D;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = 55W7397CFB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Realm",
 				);
 				INFOPLIST_FILE = Six/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -549,9 +595,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaxxx.six;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jc.test.demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -565,12 +612,13 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.1;
-				DEVELOPMENT_TEAM = 223US8T63D;
+				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = 55W7397CFB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Realm",
 				);
 				INFOPLIST_FILE = Six/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -578,9 +626,10 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaxxx.six;
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jc.test.demo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

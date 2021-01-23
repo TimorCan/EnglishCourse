@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - FRadioPlayer (0.1.21)
   - Kingfisher (5.15.8):
     - Kingfisher/Core (= 5.15.8)
   - Kingfisher/Core (5.15.8)
@@ -12,6 +13,7 @@ PODS:
   - Sparkle (1.24.0)
 
 DEPENDENCIES:
+  - FRadioPlayer
   - Kingfisher (~> 5.15.5)
   - Moya (~> 13.0.0)
   - Sparkle (~> 1.24.0)
@@ -19,6 +21,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FRadioPlayer
     - Kingfisher
     - Moya
     - Result
@@ -26,11 +29,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FRadioPlayer: 6f5ec8ddd1a08197c66716bddd5337c9385ff676
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   Sparkle: 270cd27377bf04e9c128af06e3a22d0f572d6ee3
 
-PODFILE CHECKSUM: 1b6d7b8982998a5c0dcc466034a45862831854fe
+PODFILE CHECKSUM: e3883825ac03ca9223d5b8c7056eaf3f75aeb4c0
 
 COCOAPODS: 1.9.1

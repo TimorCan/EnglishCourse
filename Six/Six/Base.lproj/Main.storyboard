@@ -171,7 +171,7 @@
                                 </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="7Bh-tQ-9CO"/>
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="jUQ-YH-VQr"/>
-                                <toolbarItem implicitItemIdentifier="2F2ED7CE-1772-4312-B84E-263468B2B502" label="Print？？" paletteLabel="Print？？" tag="-1" image="打印" id="ns3-Yn-hct">
+                                <toolbarItem implicitItemIdentifier="2F2ED7CE-1772-4312-B84E-263468B2B502" label="Print" paletteLabel="Print" tag="-1" image="打印" id="ns3-Yn-hct">
                                     <size key="minSize" width="90" height="90"/>
                                     <size key="maxSize" width="90" height="90"/>
                                     <connections>
