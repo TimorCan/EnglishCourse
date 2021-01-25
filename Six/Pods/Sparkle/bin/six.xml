@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Six</title>
+        <description>create by ICT</description>
+        <language>cn</language>
+        <item>
+            <title>1.3</title>
+            <description>
+              <![CDATA[
+                <ul>
+                  <li>新增课程九</li>
+                  <li>欢迎使用</li>
+                  <li><a href="https://github.com/TimorCan/EnglishCourse">⭐️⭐️⭐️官 方 网 站⭐️⭐️⭐️</a></li>
+                </ul>
+              ]]>
+            </description>
+            <pubDate>周一, 25 1月 2021 13:35:47 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/TimorCan/EnglishCourse/releases/download/V1.0/Six.dmg" sparkle:version="1.3" sparkle:shortVersionString="1.3" length="11489631" type="application/octet-stream" sparkle:edSignature="mU4DtZlq2xt1lrrULNcLF9Oyu2YRh11hgoCD7ksNc1+y1gXbUNQQ1NLsGnmselQUwLXs0UljMqJsUiP3UM1EAA=="/>
+        </item>
+    </channel>
+</rss>

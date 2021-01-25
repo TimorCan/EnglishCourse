@@ -10,5 +10,6 @@ target 'Six' do
   pod 'Moya', '~> 13.0.0'
   pod 'Kingfisher', '~> 5.15.5'
   pod 'FRadioPlayer'
-  pod 'RealmSwift'
+#  pod 'RealmSwift'
+  pod 'TSAppKit'
 end

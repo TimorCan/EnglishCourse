@@ -619,11 +619,36 @@ Kiki：Where there is a will，there is a way.Fighting!</string>
 				<key>title</key>
 				<string>情景模拟1--租房</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：Jimmy,Rose</string>
+				<string>背景提示：
+事件参与人物：Jimmy,Rose</string>
 				<key>chinese</key>
-				<string>Jimmy：有个朋友告诉我可能能在这里找到一间房子。Rose：是的，我下周有间房间空出来。Jimmy：你开什么价?Rose：12,000 元一年.Jimmy：你这有什么规定？Rose：在公寓里不能养宠物。Jimmy：好的，可以先看下房间吗？Rose：你可以等会再来吗? 我们午饭正吃到一半。Jimmy：好的，我过会再来。</string>
+				<string>Jimmy：有个朋友告诉我可能能在这里找到一间房子。
+Rose：是的，我下周有间房间空出来。
+
+Jimmy：你开什么价?
+Rose：12,000 元一年.
+
+Jimmy：你这有什么规定？
+Rose：在公寓里不能养宠物。
+
+Jimmy：好的，可以先看下房间吗？
+Rose：你可以等会再来吗? 我们午饭正吃到一半。
+
+Jimmy：好的，我过会再来。</string>
 				<key>english</key>
-				<string>Jimmy：A friend told me that I might find a room here.Rose：Yes. I&apos;ll have a room free next week.Jimmy：What do you charge?Rose：12,000 yuan a year.Jimmy：What rules do you have？Rose：You can&apos;t keep a pet in the apartment.Jimmy：OK . Would it be all right to look at the room first？Rose：Could you come back later? We&apos;re right in the middle of dinner.Jimmy：Ok,I&apos;ll come back later.</string>
+				<string>Jimmy：A friend told me that I might find a room here.
+Rose：Yes. I&apos;ll have a room free next week.
+
+Jimmy：What do you charge?
+Rose：12,000 yuan a year.
+
+Jimmy：What rules do you have？
+Rose：You can&apos;t keep a pet in the apartment.
+
+Jimmy：OK . Would it be all right to look at the room first？
+Rose：Could you come back later? We&apos;re right in the middle of dinner.
+
+Jimmy：Ok,I&apos;ll come back later.</string>
 				<key>image</key>
 				<string>ppt_07_01</string>
 			</dict>
@@ -633,9 +658,37 @@ Kiki：Where there is a will，there is a way.Fighting!</string>
 				<key>tips</key>
 				<string>事件参与人物：Ruby&amp;David</string>
 				<key>chinese</key>
-				<string>Ruby：今天天气怎么样?David：雪停了，但是有点小风。Ruby：下雪后地面白茫茫的。David：街道上都是冰。 Ruby：你知道今天多少度吗?David：至少零下10度。Ruby：太冷了不想出门，我们还要去滑雪吗？David：算了吧，就呆在家里吧。Ruby：计划总赶不上变化。David：是啊，太可惜了!</string>
+				<string>Ruby：今天天气怎么样?
+David：雪停了，但是有点小风。
+
+Ruby：下雪后地面白茫茫的。
+David：街道上都是冰。 
+
+Ruby：你知道今天多少度吗?
+David：至少零下10度。
+
+Ruby：太冷了不想出门，我们还要去滑雪吗？
+David：算了吧，就呆在家里吧。
+
+Ruby：计划总赶不上变化。
+David：是啊，太可惜了!
+</string>
 				<key>english</key>
-				<string>Ruby：What is the weather like today?David：It stops snowing, but it&apos;s a bit wind.Ruby：The ground was all white after the snow fell.David：The streets are covered with ice. Ruby：Do you know what the temperature is today?David：It seems 10 degree below zero at least.Ruby：It&apos;s too cold to go outside.Do we still go skiing？David：Forget  it! Let&apos;s stay at home.Ruby：Plans can not keep pace with changes.David：Yes,what a pity!</string>
+				<string>Ruby：What is the weather like today?
+David：It stops snowing, but it&apos;s a bit wind.
+
+Ruby：The ground was all white after the snow fell.
+David：The streets are covered with ice. 
+
+Ruby：Do you know what the temperature is today?
+David：It seems 10 degree below zero at least.
+
+Ruby：It&apos;s too cold to go outside.Do we still go skiing？
+David：Forget  it! Let&apos;s stay at home.
+
+Ruby：Plans can not keep pace with changes.
+David：Yes,what a pity!
+</string>
 				<key>image</key>
 				<string>ppt_07_02</string>
 			</dict>
@@ -648,9 +701,29 @@ Kiki：Where there is a will，there is a way.Fighting!</string>
 请根据以下中文提示进行英语对话：
 </string>
 				<key>chinese</key>
-				<string>Jessica：打扰一下，我能见一下你们商店的经理吗?Ammy：我就是经理，有什么可以帮助你吗?Jessica：太好了，我看到商店外的招聘广告了，我来看下是否有我能做的工作。Ammy:请坐，你想当售货员吗？Jessica：那很适合我。Ammy：你什么时候能开始上班呢?Jessica:下周一怎样?Ammy：很棒，下周一见！</string>
+				<string>Jessica：打扰一下，我能见一下你们商店的经理吗?
+Ammy：我就是经理，有什么可以帮助你吗?
+
+Jessica：太好了，我看到商店外的招聘广告了，我来看下是否有我能做的工作。
+Ammy:请坐，你想当售货员吗？
+
+Jessica：那很适合我。
+Ammy：你什么时候能开始上班呢?
+
+Jessica:下周一怎样?
+Ammy：很棒，下周一见！</string>
 				<key>english</key>
-				<string>Jessica：Excuse me.May I see the manager of your store?Ammy：I am the manager.Can I help you?Jessica：Oh,great,I saw a job ad outside your store.I am coming to see if there is any job available for me.Ammy:Take a seat,please.Would you like to be a shop assistant？Jessica：It quite suits me.Ammy：When can you start working?Jessica:How about next Monday?Ammy：Great！See you next Monday.</string>
+				<string>Jessica：Excuse me.May I see the manager of your store?
+Ammy：I am the manager.Can I help you?
+
+Jessica：Oh,great,I saw a job ad outside your store.I am coming to see if there is any job available for me.
+Ammy:Take a seat,please.Would you like to be a shop assistant？
+
+Jessica：It quite suits me.
+Ammy：When can you start working?
+
+Jessica:How about next Monday?
+Ammy：Great！See you next Monday.</string>
 				<key>image</key>
 				<string>ppt_07_03</string>
 			</dict>
@@ -658,11 +731,33 @@ Kiki：Where there is a will，there is a way.Fighting!</string>
 				<key>title</key>
 				<string>情景模拟4--接机</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：Kiki、Brown</string>
+				<string>背景提示：
+事件参与人物：Kiki、Brown</string>
 				<key>chinese</key>
-				<string>Kiki：您好，格林先生，很高兴能再次见到您。 过的怎么样?Green：很好。您怎么样?Kiki：还可以，谢谢。我们公司派我来这儿接您。 Green：你们真的是太好了。Kiki：旅途怎么样?Green：嗯，总体来说还好，就是从纽约到上海真的是一次长途旅行啊。 Kiki：这是您第一次来中国吧?Green：是的，我多年来一直在梦想着能来中国。</string>
+				<string>Kiki：您好，格林先生，很高兴能再次见到您。 过的怎么样?
+Green：很好。您怎么样?
+
+Kiki：还可以，谢谢。我们公司派我来这儿接您。 
+Green：你们真的是太好了。
+
+Kiki：旅途怎么样?
+Green：嗯，总体来说还好，就是从纽约到上海真的是一次长途旅行啊。 
+
+Kiki：这是您第一次来中国吧?
+Green：是的，我多年来一直在梦想着能来中国。</string>
 				<key>english</key>
-				<string>Kiki：How are you , MR.Green? How nice to see you again. How is everything going?Green：Very well. What about you?Kiki：Not bad. thanks. Our company has sent me to pick you up here. Green：That is so nice of you.Kiki：How was your flight?Green：Well,generally speaking ,it was fine.But it is really a long distance from New York to ShangHai. Kiki：Is it your first visit to China? Green：Yes,I have been dreaming of coming to China for years.</string>
+				<string>Kiki：How are you , MR.Green? How nice to see you again. How is everything going?
+Green：Very well. What about you?
+
+Kiki：Not bad. thanks. Our company has sent me to pick you up here. 
+Green：That is so nice of you.
+
+Kiki：How was your flight?
+Green：Well,generally speaking ,it was fine.But it is really a long distance from New York to ShangHai. 
+
+Kiki：Is it your first visit to China? 
+Green：Yes,I have been dreaming of coming to China for years.
+</string>
 				<key>image</key>
 				<string>ppt_07_04</string>
 			</dict>
@@ -673,9 +768,84 @@ Kiki：Where there is a will，there is a way.Fighting!</string>
 				<string>背景提示：
 事件参与人物：Kiki、Brown</string>
 				<key>chinese</key>
-				<string>Kiki：Brown，来一下我办公室。Brown：好的，我5分钟就带着文件来你办公室。Kiki：好的，这次项目已经顺利完成了。Brown：我还有一件事想跟你说我要请两天的假，下周一到下周二。Kiki：我可以知道理由吗？Brown：家里有事。Kiki：明白了，你可以请假。Brown：谢谢，感谢你的理解。</string>
+				<string>Kiki：Brown，来一下我办公室。
+Brown：好的，我5分钟就带着文件来你办公室。
+
+Kiki：好的，这次项目已经顺利完成了。
+Brown：我还有一件事想跟你说我要请两天的假，下周一到下周二。
+
+Kiki：我可以知道理由吗？
+Brown：家里有事。
+
+Kiki：明白了，你可以请假。
+Brown：谢谢，感谢你的理解。</string>
 				<key>english</key>
-				<string>Kiki：Brown，come to my office.Brown：All right,I am coming to your office with documents in five minutes.Kiki：Ok,this project has been completed perfectly.Brown：I have one more thing to talk about.I would like to take two days leave from next Monday to next Tuesday.Kiki：May I know the reason for your leave？Brown：I have some family issues to deal with.Kiki：I see.It&apos;s ok for you to take two days leave.Brown：Thank you for your understanding.</string>
+				<string>Kiki：Brown，come to my office.
+Brown：All right,I am coming to your office with documents in five minutes.
+
+Kiki：Ok,this project has been completed perfectly.
+Brown：I have one more thing to talk about.I would like to take two days leave from next Monday to next Tuesday.
+
+Kiki：May I know the reason for your leave？
+Brown：I have some family issues to deal with.
+
+Kiki：I see.It&apos;s ok for you to take two days leave.
+Brown：Thank you for your understanding.</string>
+				<key>image</key>
+				<string>ppt_07_04</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>英语口语训练第九课</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>情景模拟1--表达感谢</string>
+				<key>tips</key>
+				<string>背景提示：事件参与人物：Jimmy,Rose</string>
+				<key>chinese</key>
+				<string>Jimmy：Rose,你在这儿玩得开心吗？ Rose：当然开心,这场晚会有很多有趣的人和美食，真是棒极了。Jimmy：很高兴你在这里玩得开心。 Rose：谢谢你的邀请。Jimmy：我的荣幸。再来一杯酒吗？Rose：好的，我想再来一杯。感谢你所做的一切。Jimmy：你能来是我的荣幸。你知道的你总是受欢迎的</string>
+				<key>english</key>
+				<string>Jimmy：Rose,are you having a good time? Rose：Yes, of course. This is a really wonderful party with interesting people and great food.Jimmy：I’m glad you are enjoying yourself. Rose：Thank you for the invitation.Jimmy：It’s my pleasure. Can I get you another glass of wine?Rose：Yes, I’d love another glass.Thank you for everything.Jimmy：It’s my pleasure having you here. You know you’re always welcome here.</string>
+				<key>image</key>
+				<string>ppt_07_01</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟2--养宠物</string>
+				<key>tips</key>
+				<string>事件参与人物：Son&amp;mother</string>
+				<key>chinese</key>
+				<string>Son：妈妈，我可以养个宠物吗?mother：亲爱的，你想要什么样的宠物?Son：我想养一条蛇。那肯定很有意思。mother：不，蛇太吓人了。金鱼听起来更好。Son：可是我不喜欢金鱼，他们太无聊了。mother：狗狗怎么样？你可以每天去遛狗。Son：那太普通了，我想养特别一点的宠物。mother：亲爱的，我们得听听你爸爸的意见。我们以后再讨论这件事吧。</string>
+				<key>english</key>
+				<string>Son：Mom, can I keep a pet?mother：Oh, dear, what kind of pet do you want to get?Son：I want to keep a snake. That will be very interesting.mother：No, snake is terrible. A goldfish sounds better.Son：But I don’t like goldfish. They&apos;re too boring!mother：What  about a dog?You can take your pet dog for a walk every day.Son：That&apos;s too common. I want to keep a special pet.mother：Darling, we have to hear from your dad. Let’s talk about it later.</string>
+				<key>image</key>
+				<string>ppt_07_02</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟3--锻炼</string>
+				<key>tips</key>
+				<string>事件参与人物：Jessica、Ammy</string>
+				<key>chinese</key>
+				<string>Jessica：你真的很健康。你经常锻炼吗?Ammy：嗯，我几乎总是起得很早，我在附近的山上徒步旅行了两个小时。Jessica：你在开玩笑吧!Ammy:没有，然后我去上瑜伽课。Jessica：哇!你多久锻炼一次?Ammy：一周大约六次。你呢?Jessica:我通常在空闲时间就看看电视。</string>
+				<key>english</key>
+				<string>Jessica：You&apos;re really fit.Do you exercise a lot?Ammy：Well, I almost always get up very early, and I go hiking in the mountains nearby for two hours.Jessica：You&apos;re kidding!Ammy:No. And then I go to a yoga class.Jessica：Wow! How often do you exercise like that?Ammy：About six times a week. What about you?Jessica:I usually just watch TV in my free time.Ammy:We should pay attention to our health.The body is the capital of the revolution! </string>
+				<key>image</key>
+				<string>ppt_07_03</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟4--和同事吃饭</string>
+				<key>tips</key>
+				<string>事件参与人物：Kiki、Green</string>
+				<key>chinese</key>
+				<string>Kiki：让我们出去吃吧，好嘛?Green：但是我身上没多少钱。Kiki：别担心，我请客。 Green：确定吗，你真是太大方了！Kiki：当然了!Green：所以你想带我去哪?  Kiki：一个你从没去过的地方，Kiki的厨房！Green:非常感谢你雪中送炭！</string>
+				<key>english</key>
+				<string>Kiki：Let&apos;s eat out, shall we?Green：But I don&apos;t have much money with me.Kiki：Don&apos;t worry about it. It&apos;s my treat. Green：Are you sure? You&apos;re so generous!Kiki：Of course!Green：So, where are you taking me?  Kiki：Some place you&apos;ve never been before. Kiki&apos;s kitchen!Green:Thanks for your timely help!</string>
 				<key>image</key>
 				<string>ppt_07_04</string>
 			</dict>

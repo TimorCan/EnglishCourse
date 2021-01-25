@@ -23,7 +23,11 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW">
+                                            <connections>
+                                                <action selector="showPreferAction:" target="Voe-Tx-rLC" id="fmd-1x-Dj1"/>
+                                            </connections>
+                                        </menuItem>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
                                         <menuItem title="Check for Updates..." id="ibT-6f-clQ">
                                             <modifierMask key="keyEquivalentModifierMask"/>
@@ -155,21 +159,27 @@
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <toolbar key="toolbar" implicitIdentifier="82B42909-6324-4535-9C9C-92A18CA91A57" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="umB-k2-Qkr">
                             <allowedToolbarItems>
-                                <toolbarItem implicitItemIdentifier="6919705C-9CDC-4B11-8392-1CFB6DBD7574" label="Six" paletteLabel="Six" tag="-1" image="铜钱" id="x1T-Ks-8bH">
+                                <toolbarItem implicitItemIdentifier="6919705C-9CDC-4B11-8392-1CFB6DBD7574" label="Net" paletteLabel="Net" tag="-1" image="铜钱" id="x1T-Ks-8bH">
                                     <size key="minSize" width="45" height="45"/>
                                     <size key="maxSize" width="45" height="45"/>
                                     <connections>
                                         <action selector="sixAction:" target="B8D-0N-5wS" id="flT-qy-p73"/>
                                     </connections>
                                 </toolbarItem>
-                                <toolbarItem implicitItemIdentifier="C6C4EAAB-E33F-43F4-8197-AE92DCEDF7DC" label="Course" paletteLabel="Course" tag="-1" image="ppt1" id="Rb4-qf-MYR">
+                                <toolbarItem implicitItemIdentifier="C6C4EAAB-E33F-43F4-8197-AE92DCEDF7DC" label="Course" paletteLabel="Course" tag="10000" image="ppt1" id="Rb4-qf-MYR">
                                     <size key="minSize" width="45" height="45"/>
                                     <size key="maxSize" width="45" height="45"/>
                                     <connections>
                                         <action selector="kAction:" target="B8D-0N-5wS" id="fb6-mo-bEi"/>
                                     </connections>
                                 </toolbarItem>
-                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="7Bh-tQ-9CO"/>
+                                <toolbarItem implicitItemIdentifier="5044075D-D4EE-49DA-AEDC-F868C55F69AB" label="Grammar" paletteLabel="Grammar" tag="2000" image="英语" id="qhP-y3-Jhn">
+                                    <size key="minSize" width="45" height="45"/>
+                                    <size key="maxSize" width="45" height="45"/>
+                                    <connections>
+                                        <action selector="kAction:" target="B8D-0N-5wS" id="J3C-Ns-4uC"/>
+                                    </connections>
+                                </toolbarItem>
                                 <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="jUQ-YH-VQr"/>
                                 <toolbarItem implicitItemIdentifier="2F2ED7CE-1772-4312-B84E-263468B2B502" label="Print" paletteLabel="Print" tag="-1" image="打印" id="ns3-Yn-hct">
                                     <size key="minSize" width="90" height="90"/>
@@ -178,10 +188,20 @@
                                         <action selector="printAction:" target="B8D-0N-5wS" id="jhN-0r-sXs"/>
                                     </connections>
                                 </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="08BFA5A5-04EF-4E8F-AC35-F5694C17A0F7" label="Listen" paletteLabel="Listen" tag="30000" image="听歌" id="h9G-kl-I3X">
+                                    <size key="minSize" width="45" height="45"/>
+                                    <size key="maxSize" width="45" height="45"/>
+                                    <connections>
+                                        <action selector="kAction:" target="B8D-0N-5wS" id="S32-rO-wKI"/>
+                                    </connections>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="7Bh-tQ-9CO"/>
                             </allowedToolbarItems>
                             <defaultToolbarItems>
                                 <toolbarItem reference="x1T-Ks-8bH"/>
                                 <toolbarItem reference="Rb4-qf-MYR"/>
+                                <toolbarItem reference="qhP-y3-Jhn"/>
+                                <toolbarItem reference="h9G-kl-I3X"/>
                                 <toolbarItem reference="jUQ-YH-VQr"/>
                                 <toolbarItem reference="ns3-Yn-hct"/>
                             </defaultToolbarItems>
@@ -191,7 +211,9 @@
                         </connections>
                     </window>
                     <connections>
+                        <outlet property="grammerItem" destination="qhP-y3-Jhn" id="EtY-p3-kYD"/>
                         <outlet property="k" destination="Rb4-qf-MYR" id="48Z-bA-f4T"/>
+                        <outlet property="listenItem" destination="h9G-kl-I3X" id="Sib-On-9qg"/>
                         <outlet property="print" destination="ns3-Yn-hct" id="mLh-PA-IZN"/>
                         <outlet property="six" destination="x1T-Ks-8bH" id="uRi-Pw-aFE"/>
                         <outlet property="toolBar" destination="umB-k2-Qkr" id="yZh-QW-u3C"/>
@@ -513,7 +535,9 @@
     </scenes>
     <resources>
         <image name="ppt1" width="90" height="90"/>
-        <image name="打印" width="90" height="90"/>
+        <image name="听歌" width="45" height="45"/>
+        <image name="打印" width="45" height="45"/>
+        <image name="英语" width="46.5" height="45"/>
         <image name="铜钱" width="45" height="45"/>
     </resources>
 </document>

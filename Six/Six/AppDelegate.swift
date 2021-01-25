@@ -7,13 +7,15 @@
 //
 
 import Cocoa
-import RealmSwift
+import TSAppKit
+//import RealmSwift
+
 import Swift
 
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
+    let tsVc = TSPreferencesController.init()
     var window:NSWindow?
     var MainWindowVC:MainWindowVC?
     var mainVC:MainSplitVC?
@@ -49,6 +51,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         return true
     }
     
+    @IBAction func showPreferAction(_ sender: Any) {
+        
+        tsVc.showWindow(sender)
+        
+    }
     @IBAction func showHelp(sender:Any) {
         
 //        [[ sharedWorkspace] openURL:[NSURL URLWithString:@"http://www.cnblogs.com"]];

@@ -1,0 +1,6 @@
+framework module TSAppKit {
+  umbrella header "TSAppKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

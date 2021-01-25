@@ -28,9 +28,13 @@
 		5586E3B225A554A00080C610 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3B125A554A00080C610 /* DetailItem.swift */; };
 		5586E3B425A585E30080C610 /* MainWindowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5586E3B325A585E30080C610 /* MainWindowVC.swift */; };
 		55C48AEA25BBD5D400D3FD9A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C48AE925BBD5C600D3FD9A /* libc++.tbd */; };
-		55C48AF425BBDDB300D3FD9A /* RealmSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55C48AE525BBD55A00D3FD9A /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		55C48AF525BBDDB600D3FD9A /* Realm.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55C48AE625BBD55A00D3FD9A /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		55C48AFA25BBEBCE00D3FD9A /* ppt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C48AF925BBEBCE00D3FD9A /* ppt.swift */; };
+		55C48B0425BEA53D00D3FD9A /* TSPreferencesPanels.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55C48AFD25BEA53D00D3FD9A /* TSPreferencesPanels.plist */; };
+		55C48B0525BEA53D00D3FD9A /* TSPreferencePaneAdvanced.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C48AFE25BEA53D00D3FD9A /* TSPreferencePaneAdvanced.xib */; };
+		55C48B0625BEA53D00D3FD9A /* TSPreferencePaneAdvanced.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C48AFF25BEA53D00D3FD9A /* TSPreferencePaneAdvanced.m */; };
+		55C48B0725BEA53D00D3FD9A /* TSPreferencePaneGeneral.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C48B0125BEA53D00D3FD9A /* TSPreferencePaneGeneral.xib */; };
+		55C48B0825BEA53D00D3FD9A /* TSPreferencePaneGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C48B0325BEA53D00D3FD9A /* TSPreferencePaneGeneral.m */; };
+		55C48B0B25BEA8BB00D3FD9A /* PanlTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C48B0A25BEA8BB00D3FD9A /* PanlTool.m */; };
 		55C5A58C25AD725200E219AF /* DetailIConCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A58B25AD725200E219AF /* DetailIConCellView.swift */; };
 		55C5A58E25AD726B00E219AF /* DetailTextCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */; };
 		55C5A59025AD727B00E219AF /* DetailIConCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */; };
@@ -65,20 +69,6 @@
 		55CC946125A6A14F00D4BF19 /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CC946025A6A14F00D4BF19 /* ContentView.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		55C48AF325BBDDA900D3FD9A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				55C48AF425BBDDB300D3FD9A /* RealmSwift.framework in CopyFiles */,
-				55C48AF525BBDDB600D3FD9A /* Realm.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		551CC44A25B931B00042BC35 /* SoundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCell.swift; sourceTree = "<group>"; };
 		551CC44C25B931BB0042BC35 /* SoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SoundCell.xib; sourceTree = "<group>"; };
@@ -102,10 +92,17 @@
 		5586E3AF25A552B30080C610 /* DetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailList.swift; sourceTree = "<group>"; };
 		5586E3B125A554A00080C610 /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 		5586E3B325A585E30080C610 /* MainWindowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowVC.swift; sourceTree = "<group>"; };
-		55C48AE525BBD55A00D3FD9A /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
-		55C48AE625BBD55A00D3FD9A /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		55C48AE925BBD5C600D3FD9A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		55C48AF925BBEBCE00D3FD9A /* ppt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ppt.swift; sourceTree = "<group>"; };
+		55C48AFD25BEA53D00D3FD9A /* TSPreferencesPanels.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TSPreferencesPanels.plist; sourceTree = "<group>"; };
+		55C48AFE25BEA53D00D3FD9A /* TSPreferencePaneAdvanced.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSPreferencePaneAdvanced.xib; sourceTree = "<group>"; };
+		55C48AFF25BEA53D00D3FD9A /* TSPreferencePaneAdvanced.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPreferencePaneAdvanced.m; sourceTree = "<group>"; };
+		55C48B0025BEA53D00D3FD9A /* TSPreferencePaneGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPreferencePaneGeneral.h; sourceTree = "<group>"; };
+		55C48B0125BEA53D00D3FD9A /* TSPreferencePaneGeneral.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSPreferencePaneGeneral.xib; sourceTree = "<group>"; };
+		55C48B0225BEA53D00D3FD9A /* TSPreferencePaneAdvanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPreferencePaneAdvanced.h; sourceTree = "<group>"; };
+		55C48B0325BEA53D00D3FD9A /* TSPreferencePaneGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSPreferencePaneGeneral.m; sourceTree = "<group>"; };
+		55C48B0925BEA8BB00D3FD9A /* PanlTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanlTool.h; sourceTree = "<group>"; };
+		55C48B0A25BEA8BB00D3FD9A /* PanlTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanlTool.m; sourceTree = "<group>"; };
 		55C5A58B25AD725200E219AF /* DetailIConCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailIConCellView.swift; sourceTree = "<group>"; };
 		55C5A58D25AD726B00E219AF /* DetailTextCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTextCellView.swift; sourceTree = "<group>"; };
 		55C5A58F25AD727B00E219AF /* DetailIConCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailIConCellView.xib; sourceTree = "<group>"; };
@@ -169,7 +166,7 @@
 		5586E37125A3FF650080C610 = {
 			isa = PBXGroup;
 			children = (
-				55C48AE425BBD55A00D3FD9A /* Realm */,
+				55C48AFC25BEA53D00D3FD9A /* Preference */,
 				55CC942E25A5A46D00D4BF19 /* FatSidebar */,
 				5586E37C25A3FF650080C610 /* Six */,
 				5586E37B25A3FF650080C610 /* Products */,
@@ -228,13 +225,21 @@
 			path = Six;
 			sourceTree = "<group>";
 		};
-		55C48AE425BBD55A00D3FD9A /* Realm */ = {
+		55C48AFC25BEA53D00D3FD9A /* Preference */ = {
 			isa = PBXGroup;
 			children = (
-				55C48AE525BBD55A00D3FD9A /* RealmSwift.framework */,
-				55C48AE625BBD55A00D3FD9A /* Realm.framework */,
+				55C48AFD25BEA53D00D3FD9A /* TSPreferencesPanels.plist */,
+				55C48AFE25BEA53D00D3FD9A /* TSPreferencePaneAdvanced.xib */,
+				55C48AFF25BEA53D00D3FD9A /* TSPreferencePaneAdvanced.m */,
+				55C48B0025BEA53D00D3FD9A /* TSPreferencePaneGeneral.h */,
+				55C48B0125BEA53D00D3FD9A /* TSPreferencePaneGeneral.xib */,
+				55C48B0225BEA53D00D3FD9A /* TSPreferencePaneAdvanced.h */,
+				55C48B0325BEA53D00D3FD9A /* TSPreferencePaneGeneral.m */,
+				55C48B0925BEA8BB00D3FD9A /* PanlTool.h */,
+				55C48B0A25BEA8BB00D3FD9A /* PanlTool.m */,
 			);
-			path = Realm;
+			name = Preference;
+			path = Six/Preference;
 			sourceTree = "<group>";
 		};
 		55CC942E25A5A46D00D4BF19 /* FatSidebar */ = {
@@ -285,7 +290,6 @@
 				5586E37725A3FF650080C610 /* Frameworks */,
 				5586E37825A3FF650080C610 /* Resources */,
 				9EC4E9248DD05F39E5C467C7 /* [CP] Embed Pods Frameworks */,
-				55C48AF325BBDDA900D3FD9A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -338,14 +342,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C48B0425BEA53D00D3FD9A /* TSPreferencesPanels.plist in Resources */,
 				55CC942B25A5A18400D4BF19 /* pptx.plist in Resources */,
 				5586E38225A3FF6A0080C610 /* Assets.xcassets in Resources */,
 				5586E3AA25A457530080C610 /* DetailListCellView.xib in Resources */,
 				55CC941E25A59F2E00D4BF19 /* Local.storyboard in Resources */,
 				55C5A59025AD727B00E219AF /* DetailIConCellView.xib in Resources */,
 				5586E38525A3FF6A0080C610 /* Main.storyboard in Resources */,
+				55C48B0525BEA53D00D3FD9A /* TSPreferencePaneAdvanced.xib in Resources */,
 				55CC941925A58C4D00D4BF19 /* List.plist in Resources */,
 				55CC945D25A6964900D4BF19 /* DirView.xib in Resources */,
+				55C48B0725BEA53D00D3FD9A /* TSPreferencePaneGeneral.xib in Resources */,
 				55CC946125A6A14F00D4BF19 /* ContentView.xib in Resources */,
 				5586E3A225A443A30080C610 /* HomeCellView.xib in Resources */,
 				55C5A59425AE85FB00E219AF /* DetailTextCellView.xib in Resources */,
@@ -402,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C48B0B25BEA8BB00D3FD9A /* PanlTool.m in Sources */,
 				55CC945B25A6935400D4BF19 /* Course.swift in Sources */,
 				55CC944B25A5A46D00D4BF19 /* FatSidebarItemConfiguration.swift in Sources */,
 				55CC944325A5A46D00D4BF19 /* FatSidebar.swift in Sources */,
@@ -420,6 +428,7 @@
 				5586E3AE25A540530080C610 /* MainSplitView.swift in Sources */,
 				55C5A58C25AD725200E219AF /* DetailIConCellView.swift in Sources */,
 				55CC945F25A6A14300D4BF19 /* ContentView.swift in Sources */,
+				55C48B0825BEA53D00D3FD9A /* TSPreferencePaneGeneral.m in Sources */,
 				55CC945525A5A4E300D4BF19 /* NSImage+Tinted.swift in Sources */,
 				55CC944A25A5A46D00D4BF19 /* DraggingView.swift in Sources */,
 				5586E3B425A585E30080C610 /* MainWindowVC.swift in Sources */,
@@ -432,6 +441,7 @@
 				55CC945325A5A46D00D4BF19 /* StatefulColor.swift in Sources */,
 				55CC944225A5A46D00D4BF19 /* DragViewContainer.swift in Sources */,
 				55CC945725A68E4300D4BF19 /* DirView.swift in Sources */,
+				55C48B0625BEA53D00D3FD9A /* TSPreferencePaneAdvanced.m in Sources */,
 				55C5A58E25AD726B00E219AF /* DetailTextCellView.swift in Sources */,
 				55CC945125A5A46D00D4BF19 /* FatSidebarItem.swift in Sources */,
 				5586E3AC25A537470080C610 /* MainSplitVC.swift in Sources */,
@@ -581,7 +591,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_TEAM = 55W7397CFB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -595,8 +605,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jc.test.demo1;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaxxx.six;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -612,7 +622,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.3;
 				DEVELOPMENT_TEAM = 55W7397CFB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -626,8 +636,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jc.test.demo1;
+				MARKETING_VERSION = 1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaxxx.six;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

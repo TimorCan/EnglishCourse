@@ -11,13 +11,22 @@ import CommonCrypto
 import CoreGraphics
 
 class MainWindowVC: NSWindowController {
-
+    
+    
+    
+    @IBOutlet weak var grammerItem: NSToolbarItem!
+    @IBOutlet weak var listenItem: NSToolbarItem!
+    
     @IBOutlet weak var print: NSToolbarItem!
     @IBOutlet weak var k: NSToolbarItem!
     @IBOutlet weak var six: NSToolbarItem!
     @IBOutlet weak var toolBar: NSToolbar!
     
 //    var detailVC:DetailViewController?
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
     
     override func windowDidLoad() {
         super.windowDidLoad()
@@ -26,9 +35,57 @@ class MainWindowVC: NSWindowController {
         app.window = self.window
         app.MainWindowVC = self
         
+        self.grammerItem.isEnabled = false
+        self.listenItem.isEnabled = false
+        
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(start), name: NSNotification.Name(rawValue: "startEnable"), object: nil)
+        start()
+        
+//        if let start:String = UserDefaults.standard.object(forKey: "lianxi_start_keys") as? String{
+//
+//            if start == "YES" {
+//                self.grammerItem.isEnabled = true
+//                self.listenItem.isEnabled = true
+//            }
+//
+//
+//        }
+        
+        
+  
+        
+        
+        
         
         // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
      
+    }
+    
+   @objc func start()  {
+        if let start:String = UserDefaults.standard.object(forKey: "lianxi_start_keys") as? String{
+                   
+                   if start == "YES" {
+                       self.grammerItem.isEnabled = true
+                       self.listenItem.isEnabled = true
+                       self.grammerItem.target = self;
+                       self.listenItem.target = self;
+                    self.grammerItem.action = Selector.init(("kAction:"))
+                    self.listenItem.action = Selector.init(("kAction:"))
+                   }
+                   
+                    if start == "NO" {
+                        self.grammerItem.isEnabled = false
+                        
+                        self.listenItem.isEnabled = false
+                        
+                        self.grammerItem.target = nil;
+                        self.listenItem.target = nil;
+                        self.grammerItem.action = nil;
+                        self.listenItem.action = nil;
+                    }
+                   
+               }
     }
     
     

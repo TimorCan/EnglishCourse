@@ -11,12 +11,14 @@ PODS:
     - Result (~> 4.1)
   - Result (4.1.0)
   - Sparkle (1.24.0)
+  - TSAppKit (1.0.2)
 
 DEPENDENCIES:
   - FRadioPlayer
   - Kingfisher (~> 5.15.5)
   - Moya (~> 13.0.0)
   - Sparkle (~> 1.24.0)
+  - TSAppKit
 
 SPEC REPOS:
   trunk:
@@ -26,6 +28,7 @@ SPEC REPOS:
     - Moya
     - Result
     - Sparkle
+    - TSAppKit
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -34,7 +37,8 @@ SPEC CHECKSUMS:
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   Sparkle: 270cd27377bf04e9c128af06e3a22d0f572d6ee3
+  TSAppKit: 82ac6cd2cdda066d23f04935b2ca7efd0c8ce6e5
 
-PODFILE CHECKSUM: e3883825ac03ca9223d5b8c7056eaf3f75aeb4c0
+PODFILE CHECKSUM: 092425aa907b9bb3d20ea2660b9a1cf9fc881ef4
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
