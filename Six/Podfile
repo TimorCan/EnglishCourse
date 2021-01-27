@@ -12,4 +12,5 @@ target 'Six' do
   pod 'FRadioPlayer'
 #  pod 'RealmSwift'
   pod 'TSAppKit'
+  pod 'FMDB'
 end

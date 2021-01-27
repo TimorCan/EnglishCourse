@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.9.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - FRadioPlayer (0.1.21)
   - Kingfisher (5.15.8):
     - Kingfisher/Core (= 5.15.8)
@@ -14,6 +17,7 @@ PODS:
   - TSAppKit (1.0.2)
 
 DEPENDENCIES:
+  - FMDB
   - FRadioPlayer
   - Kingfisher (~> 5.15.5)
   - Moya (~> 13.0.0)
@@ -23,6 +27,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FMDB
     - FRadioPlayer
     - Kingfisher
     - Moya
@@ -32,6 +37,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   FRadioPlayer: 6f5ec8ddd1a08197c66716bddd5337c9385ff676
   Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
@@ -39,6 +45,6 @@ SPEC CHECKSUMS:
   Sparkle: 270cd27377bf04e9c128af06e3a22d0f572d6ee3
   TSAppKit: 82ac6cd2cdda066d23f04935b2ca7efd0c8ce6e5
 
-PODFILE CHECKSUM: 092425aa907b9bb3d20ea2660b9a1cf9fc881ef4
+PODFILE CHECKSUM: f27060cacb7b77feb09280ab99927aa484d94335
 
 COCOAPODS: 1.10.1

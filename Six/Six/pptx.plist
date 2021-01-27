@@ -805,11 +805,31 @@ Brown：Thank you for your understanding.</string>
 				<key>title</key>
 				<string>情景模拟1--表达感谢</string>
 				<key>tips</key>
-				<string>背景提示：事件参与人物：Jimmy,Rose</string>
+				<string>背景提示：
+事件参与人物：Jimmy,Rose
+</string>
 				<key>chinese</key>
-				<string>Jimmy：Rose,你在这儿玩得开心吗？ Rose：当然开心,这场晚会有很多有趣的人和美食，真是棒极了。Jimmy：很高兴你在这里玩得开心。 Rose：谢谢你的邀请。Jimmy：我的荣幸。再来一杯酒吗？Rose：好的，我想再来一杯。感谢你所做的一切。Jimmy：你能来是我的荣幸。你知道的你总是受欢迎的</string>
+				<string>Jimmy：Rose,你在这儿玩得开心吗？ 
+Rose：当然开心,这场晚会有很多有趣的人和美食，真是棒极了。
+
+Jimmy：很高兴你在这里玩得开心。 
+Rose：谢谢你的邀请。
+
+Jimmy：我的荣幸。再来一杯酒吗？
+Rose：好的，我想再来一杯。感谢你所做的一切。
+
+Jimmy：你能来是我的荣幸。你知道的你总是受欢迎的</string>
 				<key>english</key>
-				<string>Jimmy：Rose,are you having a good time? Rose：Yes, of course. This is a really wonderful party with interesting people and great food.Jimmy：I’m glad you are enjoying yourself. Rose：Thank you for the invitation.Jimmy：It’s my pleasure. Can I get you another glass of wine?Rose：Yes, I’d love another glass.Thank you for everything.Jimmy：It’s my pleasure having you here. You know you’re always welcome here.</string>
+				<string>Jimmy：Rose,are you having a good time? 
+Rose：Yes, of course. This is a really wonderful party with interesting people and great food.
+
+Jimmy：I’m glad you are enjoying yourself. 
+Rose：Thank you for the invitation.
+
+Jimmy：It’s my pleasure. Can I get you another glass of wine?
+Rose：Yes, I’d love another glass.Thank you for everything.
+
+Jimmy：It’s my pleasure having you here. You know you’re always welcome here.</string>
 				<key>image</key>
 				<string>ppt_07_01</string>
 			</dict>
@@ -817,11 +837,34 @@ Brown：Thank you for your understanding.</string>
 				<key>title</key>
 				<string>情景模拟2--养宠物</string>
 				<key>tips</key>
-				<string>事件参与人物：Son&amp;mother</string>
+				<string>事件参与人物：Son&amp;mother
+</string>
 				<key>chinese</key>
-				<string>Son：妈妈，我可以养个宠物吗?mother：亲爱的，你想要什么样的宠物?Son：我想养一条蛇。那肯定很有意思。mother：不，蛇太吓人了。金鱼听起来更好。Son：可是我不喜欢金鱼，他们太无聊了。mother：狗狗怎么样？你可以每天去遛狗。Son：那太普通了，我想养特别一点的宠物。mother：亲爱的，我们得听听你爸爸的意见。我们以后再讨论这件事吧。</string>
+				<string>Son：妈妈，我可以养个宠物吗?
+mother：亲爱的，你想要什么样的宠物?
+
+Son：我想养一条蛇。那肯定很有意思。
+mother：不，蛇太吓人了。金鱼听起来更好。
+
+Son：可是我不喜欢金鱼，他们太无聊了。
+mother：狗狗怎么样？你可以每天去遛狗。
+
+Son：那太普通了，我想养特别一点的宠物。
+mother：亲爱的，我们得听听你爸爸的意见。我们以后再讨论这件事吧。
+
+</string>
 				<key>english</key>
-				<string>Son：Mom, can I keep a pet?mother：Oh, dear, what kind of pet do you want to get?Son：I want to keep a snake. That will be very interesting.mother：No, snake is terrible. A goldfish sounds better.Son：But I don’t like goldfish. They&apos;re too boring!mother：What  about a dog?You can take your pet dog for a walk every day.Son：That&apos;s too common. I want to keep a special pet.mother：Darling, we have to hear from your dad. Let’s talk about it later.</string>
+				<string>Son：Mom, can I keep a pet?
+mother：Oh, dear, what kind of pet do you want to get?
+
+Son：I want to keep a snake. That will be very interesting.
+mother：No, snake is terrible. A goldfish sounds better.
+
+Son：But I don’t like goldfish. They&apos;re too boring!
+mother：What  about a dog?You can take your pet dog for a walk every day.
+
+Son：That&apos;s too common. I want to keep a special pet.
+mother：Darling, we have to hear from your dad. Let’s talk about it later.</string>
 				<key>image</key>
 				<string>ppt_07_02</string>
 			</dict>
@@ -831,9 +874,28 @@ Brown：Thank you for your understanding.</string>
 				<key>tips</key>
 				<string>事件参与人物：Jessica、Ammy</string>
 				<key>chinese</key>
-				<string>Jessica：你真的很健康。你经常锻炼吗?Ammy：嗯，我几乎总是起得很早，我在附近的山上徒步旅行了两个小时。Jessica：你在开玩笑吧!Ammy:没有，然后我去上瑜伽课。Jessica：哇!你多久锻炼一次?Ammy：一周大约六次。你呢?Jessica:我通常在空闲时间就看看电视。</string>
+				<string>Jessica：你真的很健康。你经常锻炼吗?
+Ammy：嗯，我几乎总是起得很早，我在附近的山上徒步旅行了两个小时。
+
+Jessica：你在开玩笑吧!
+Ammy:没有，然后我去上瑜伽课。
+
+Jessica：哇!你多久锻炼一次?
+Ammy：一周大约六次。你呢?
+
+Jessica:我通常在空闲时间就看看电视。</string>
 				<key>english</key>
-				<string>Jessica：You&apos;re really fit.Do you exercise a lot?Ammy：Well, I almost always get up very early, and I go hiking in the mountains nearby for two hours.Jessica：You&apos;re kidding!Ammy:No. And then I go to a yoga class.Jessica：Wow! How often do you exercise like that?Ammy：About six times a week. What about you?Jessica:I usually just watch TV in my free time.Ammy:We should pay attention to our health.The body is the capital of the revolution! </string>
+				<string>Jessica：You&apos;re really fit.Do you exercise a lot?
+Ammy：Well, I almost always get up very early, and I go hiking in the mountains nearby for two hours.
+
+Jessica：You&apos;re kidding!
+Ammy:No. And then I go to a yoga class.
+
+Jessica：Wow! How often do you exercise like that?
+Ammy：About six times a week. What about you?
+
+Jessica:I usually just watch TV in my free time.
+Ammy:We should pay attention to our health.The body is the capital of the revolution! </string>
 				<key>image</key>
 				<string>ppt_07_03</string>
 			</dict>
@@ -843,9 +905,87 @@ Brown：Thank you for your understanding.</string>
 				<key>tips</key>
 				<string>事件参与人物：Kiki、Green</string>
 				<key>chinese</key>
-				<string>Kiki：让我们出去吃吧，好嘛?Green：但是我身上没多少钱。Kiki：别担心，我请客。 Green：确定吗，你真是太大方了！Kiki：当然了!Green：所以你想带我去哪?  Kiki：一个你从没去过的地方，Kiki的厨房！Green:非常感谢你雪中送炭！</string>
+				<string>Kiki：让我们出去吃吧，好嘛?
+Green：但是我身上没多少钱。
+
+Kiki：别担心，我请客。 
+Green：确定吗，你真是太大方了！
+
+Kiki：当然了!
+Green：所以你想带我去哪?  
+
+Kiki：一个你从没去过的地方，Kiki的厨房！
+Green:非常感谢你雪中送炭！
+</string>
 				<key>english</key>
-				<string>Kiki：Let&apos;s eat out, shall we?Green：But I don&apos;t have much money with me.Kiki：Don&apos;t worry about it. It&apos;s my treat. Green：Are you sure? You&apos;re so generous!Kiki：Of course!Green：So, where are you taking me?  Kiki：Some place you&apos;ve never been before. Kiki&apos;s kitchen!Green:Thanks for your timely help!</string>
+				<string>Kiki：Let&apos;s eat out, shall we?
+Green：But I don&apos;t have much money with me.
+
+Kiki：Don&apos;t worry about it. It&apos;s my treat. 
+Green：Are you sure? You&apos;re so generous!
+
+Kiki：Of course!
+Green：So, where are you taking me?  
+
+Kiki：Some place you&apos;ve never been before. Kiki&apos;s kitchen!
+Green:Thanks for your timely help!</string>
+				<key>image</key>
+				<string>ppt_07_04</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>英语口语训练第十课</string>
+		<key>Items</key>
+		<array>
+			<dict>
+				<key>title</key>
+				<string>情景模拟1--抱怨</string>
+				<key>tips</key>
+				<string>背景提示：
+事件参与人物：Jimmy,Rose
+</string>
+				<key>chinese</key>
+				<string>Jimmy：终于到家了。今晚我们有好多作业。Rose：我真不喜欢我们老师，他布置了太多作业。Jimmy：说实话，我也不大喜欢他。他很无趣也不活跃。 Rose：他看起来一直不大开心。Jimmy：你觉得我们应该在背后这样说他吗?Rose：不应该，毕竟他是我们的老师。Jimmy：我们应该找点好的说。Rose：我完全赞成。天要黑了，我们现在还是先把功课做完吧。</string>
+				<key>english</key>
+				<string>Jimmy：Home at last！ Tonight we have a lot of homework.Rose：I really don’t like our teacher.He gives too much homework.Jimmy：To tell the truth, I don’t really like him either.He’s kind of boring and not very active. Rose：He always looks unhappy too.Jimmy：Do you think we should talk about him like this behind his back?Rose：Probably not. After all he is our teacher.Jimmy：We should try to find something nice to say.Rose：I absolutely agree. It’s getting dark. We should finish our homework now.</string>
+				<key>image</key>
+				<string>ppt_07_01</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟2--日期</string>
+				<key>tips</key>
+				<string>事件参与人物：jane&amp;Cici</string>
+				<key>chinese</key>
+				<string>jane：我得去趟银行。Cici：可是今天银行都关门了。jane：关门，你开玩笑吗?Cici：你忘了吗?今天是几号?jane：今天，哦，今天是四月一号，愚人节。Cici：你全忘了吧，对吗?jane：有点吧，但是它至少提醒了一件我应该记得的事。Cici：什么事？jane：明天是我妈妈的生日。Cici:你真孝顺（filial）。</string>
+				<key>english</key>
+				<string>jane：I need to go to the bank.Cici：But they&apos;re all closed today.jane：Closed? Are you kidding?Cici：Have you already forgotten? What&apos;s the date today?jane：It&apos;s... Oh, it&apos;s the first of April. April Fool&apos;s Day!Cici：You forgot all about it, didn&apos;t you?jane：Sort of, but it has reminded me of at least one thing I need to remember.Cici：What&apos;s that?jane：Tomorrow is my mother&apos;s birthday.Cici:You are very filial.</string>
+				<key>image</key>
+				<string>ppt_07_02</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟3--打错电话</string>
+				<key>tips</key>
+				<string>事件参与人物：Jessica、Ammy</string>
+				<key>chinese</key>
+				<string>Jessica：你好，是frank吗?Ammy：抱歉，恐怕你打错了，这儿没这人。Jessica：你确定吗？昨天我打电话他还在呢。Ammy:我确定，这号码我用了20年了。Jessica：不可能啊，我号码记得很清楚，不是 763-4565吗?Ammy：不，不是，这是736-4565.Jessica:真的吗？真是太抱歉打扰你了，我再试下。Ammy:没关系。</string>
+				<key>english</key>
+				<string>Jessica：Hello，is Frank there?Ammy：I&apos;m sorry, I&apos;m afraid you&apos;ve dialed the wrong number. Nobody here by that name.Jessica：Are you sure? I called yesterday and he was there.Ammy:I&apos;m sure.This one has been my number for more than 20 years.Jessica：That&apos;s impossible. I remember the number clearly. Isn&apos;t this 763-4565?Ammy：No, it isn&apos;t. It&apos;s 736-4565.Jessica:Really? I&apos;m so sorry I bothered you. I&apos;ll try again.Ammy:That&apos;s all right.</string>
+				<key>image</key>
+				<string>ppt_07_03</string>
+			</dict>
+			<dict>
+				<key>title</key>
+				<string>情景模拟4--餐厅订位</string>
+				<key>tips</key>
+				<string>事件参与人物：Kiki、Green</string>
+				<key>chinese</key>
+				<string>Kiki：下午好。这里是和平饭店。有什么可以帮忙的吗?Green：我想订一张两人用餐的桌子. Kiki：好的，先生。什么时候的?Green：说不准…可能晚上八点左右吧。Kiki：好的。我给您预留一张晚上八点钟的二人餐桌。请问您叫什么名字?Green：Green.  Kiki：谢谢您，格林先生。您愿意坐在吸烟区还是非吸烟区?Green:非吸烟区就行。</string>
+				<key>english</key>
+				<string>Kiki：Good afternoon. Peace Restaurant. May I help you?Green：I&apos;d like to reserve a table for two. Kiki：Yes. sir. What time would you like, sir? Green：I&apos;m not sure... perhaps around 8 p.m.Kiki：Fine. I&apos;ll reserve a table for two at 8 p.m, sir. May I have your name, please?Green：Green.  Kiki：Thank you, Mr. Green. And do you prefer smoking or non-smoking?Green:Non-smoking will be fine, please.</string>
 				<key>image</key>
 				<string>ppt_07_04</string>
 			</dict>
